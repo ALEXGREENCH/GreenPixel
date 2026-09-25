@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Оттенки Серого",
+    "cancelUnchanged": true,
+    "changed": true,
+    "undo": true,
+    "redo": true
+  },
+  {
+    "name": "Обратить",
+    "cancelUnchanged": true,
+    "changed": true,
+    "undo": true,
+    "redo": true
+  },
+  {
+    "name": "Соляризация",
+    "cancelUnchanged": true,
+    "changed": true,
+    "undo": true,
+    "redo": true
+  },
+  {
+    "name": "RGB КаналыCtrl+R",
+    "cancelUnchanged": true,
+    "changed": true,
+    "undo": true,
+    "redo": true
+  },
+  {
+    "name": "Оттенок/НасыщениеCtrl+Shift+H",
+    "cancelUnchanged": true,
+    "changed": true,
+    "undo": true,
+    "redo": true
+  },
+  {
+    "name": "ВыдержкаCtrl+Shift+E",
+    "cancelUnchanged": true,
+    "changed": true,
+    "undo": true,
+    "redo": true
+  },
+  {
+    "name": "RGB Уравнение",
+    "cancelUnchanged": true,
+    "changed": true,
+    "undo": true,
+    "redo": true
+  },
+  {
+    "name": "Усреднить",
+    "cancelUnchanged": true,
+    "changed": true,
+    "undo": true,
+    "redo": true
+  },
+  {
+    "name": "Мягкая РазмытостьCtrl+B",
+    "cancelUnchanged": true,
+    "changed": true,
+    "undo": true,
+    "redo": true
+  },
+  {
+    "name": "Размыть БольшеCtrl+Shift+B",
+    "cancelUnchanged": true,
+    "changed": true,
+    "undo": true,
+    "redo": true
+  },
+  {
+    "name": "Заказная РазмытостьCtrl+Shift+Y",
+    "cancelUnchanged": true,
+    "changed": true,
+    "undo": true,
+    "redo": true
+  },
+  {
+    "name": "Увеличить Резкость",
+    "cancelUnchanged": true,
+    "changed": true,
+    "undo": true,
+    "redo": true
+  },
+  {
+    "name": "Нерезкая МаскаCtrl+Shift+U",
+    "cancelUnchanged": true,
+    "changed": true,
+    "undo": true,
+    "redo": true
+  },
+  {
+    "name": "Удалить по МаскеCtrl+M",
+    "cancelUnchanged": true,
+    "changed": true,
+    "undo": true,
+    "redo": true
+  },
+  {
+    "name": "НепрозрачностьCtrl+Shift+O",
+    "cancelUnchanged": true,
+    "changed": true,
+    "undo": true,
+    "redo": true
+  },
+  {
+    "name": "Окраска КонтураCtrl+Shift+P",
+    "cancelUnchanged": true,
+    "changed": true,
+    "undo": true,
+    "redo": true
+  },
+  {
+    "name": "Падающая ТеньCtrl+Shift+W",
+    "cancelUnchanged": true,
+    "changed": true,
+    "undo": true,
+    "redo": true
+  },
+  {
+    "name": "СвечениеCtrl+Shift+G",
+    "cancelUnchanged": true,
+    "changed": true,
+    "undo": true,
+    "redo": true
+  },
+  {
+    "name": "ФаскаCtrl+Shift+L",
+    "cancelUnchanged": true,
+    "changed": true,
+    "undo": true,
+    "redo": true
+  }
+]

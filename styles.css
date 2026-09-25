@@ -80,3 +80,13 @@ body{font-family:Arial,sans-serif;font-size:14px}
 #color-map-row{margin-left:-2px}
 #color-top{gap:12px}
 #color-bottom{margin-left:0}
+#menu-popup button{position:relative;gap:20px;padding-left:34px;padding-right:20px}
+#menu-popup .menu-label{flex:1}
+#menu-popup .menu-check{position:absolute;left:1px;top:0;width:24px;height:24px;display:flex;align-items:center;justify-content:center;font:17px Arial;color:#222}
+#menu-popup [aria-checked=true] .menu-check{background:#cce4f7;border:1px solid #99d1ff}
+#menu-popup button:disabled .menu-check{color:#888}
+#layout:has(>#left-panel[hidden]){grid-template-columns:0 minmax(200px,1fr) 240px}
+#layout:has(>#right-panel[hidden]){grid-template-columns:100px minmax(200px,1fr) 0}
+#layout:has(>#left-panel[hidden]):has(>#right-panel[hidden]){grid-template-columns:0 minmax(200px,1fr) 0}
+#left-panel{grid-column:1}#center{grid-column:2}#right-panel{grid-column:3}
+.filter-error{color:#a00000;grid-column:1/-1;margin:0}
