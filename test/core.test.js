@@ -1,0 +1,10 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {document,layer,pixel,line,fill,composite,serialize,parse,History} from '../src/core.js';
+test('history limits snapshot memory',()=>{const h=new History(30,32);const d=document(2,2);h.push(d);h.push(d);h.push(d);assert.equal(h.undoStack.length,2);});
+test('dimensions and hostile documents are validated',()=>{for(const n of [0,-1,513,1.5,NaN])assert.throws(()=>document(n,32));const d=document(2,2);const bad=JSON.parse(serialize(d));bad.layers[0].pixels[0]=-1;assert.throws(()=>parse(JSON.stringify(bad)));bad.layers=[];assert.throws(()=>parse(JSON.stringify(bad)));});
+test('lines include endpoints and clip brush at edges',()=>{const d=document(4,4);line(d,0,0,3,3,[1,2,3,255]);assert.equal(d.layers[0].pixels.filter((_,i)=>i%4===3&&d.layers[0].pixels[i]===255).length,4);pixel(d,0,0,[9,8,7,255],4);assert.equal(d.layers[0].pixels.length,64);});
+test('flood fill respects boundaries and does not wrap rows',()=>{const d=document(3,3);line(d,1,0,1,2,[0,0,0,255]);fill(d,0,0,[255,0,0,255]);assert.equal(d.layers[0].pixels[4*6],255);assert.equal(d.layers[0].pixels[4*2+3],0);fill(d,0,0,[255,0,0,255]);});
+test('composite blends opacity and visibility',()=>{const d=document(1,1);pixel(d,0,0,[255,0,0,255]);d.layers.push(layer(1,1));d.active=1;pixel(d,0,0,[0,0,255,255]);d.layers[1].opacity=.5;assert.deepEqual([...composite(d)],[128,0,128,255]);d.layers[1].visible=false;assert.deepEqual([...composite(d)],[255,0,0,255]);});
+test('project roundtrip preserves every pixel and layer attribute',()=>{const d=document(2,3);d.layers.push(layer(2,3,'Русский слой'));d.active=1;pixel(d,1,2,[4,5,6,127]);d.layers[1].opacity=.42;assert.deepEqual(parse(serialize(d)),d);});
+test('undo/redo snapshots are independent and new action clears redo',()=>{let d=document(2,2);const h=new History(2);h.push(d);pixel(d,0,0,[1,2,3,255]);d=h.undo(d);assert.equal(d.layers[0].pixels[3],0);d=h.redo(d);assert.equal(d.layers[0].pixels[3],255);d=h.undo(d);h.push(d);assert.equal(h.redoStack.length,0);h.push(d);h.push(d);assert.equal(h.undoStack.length,2);});
