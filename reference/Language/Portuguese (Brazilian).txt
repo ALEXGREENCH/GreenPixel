@@ -1,4 +1,4 @@
-; Турбориум Green Pixel
+; turborium Green Pixel
 ; Language pack: Português
 ; Created by: Emerson Silva
 
@@ -36,7 +36,7 @@ PRINT_PAGES=Imprimir
 B_COMPILE=Compilar
 MSG_NOT_EXIST="%s" não existe
 MSG_OVERWRITE=Você deseja substituir "%s"?
-MSG_UNKNOWN_FILE_TYPE=O formato de arquivo "%s" não pode ser determinado automaticamente.<br>Este arquivo não pode ser carregado ou salvo pelo Турбориум Green Pixel ou tem uma extensão de errado.
+MSG_UNKNOWN_FILE_TYPE=O formato de arquivo "%s" não pode ser determinado automaticamente.<br>Este arquivo não pode ser carregado ou salvo pelo turborium Green Pixel ou tem uma extensão de errado.
 MSG_INVALID_FILE_FORMAT=Arquivo "%s" não tem o formato "%s".<br>O arquivo pode estar danificado, pode ter uma extensão de errado, ou um filtro incorretas podem ter sido especificado na caixa de diálogo Abrir.
 MSG_CROPPED=A imagem era maior do que %dx%d e foi cortada.<br>Salvando a imagem irá causar perda de dados.<br>Utilize Configurações | Preferencias para aumentar o limite de tamanho da imagem.
 MSG_SAVE_CHANGES=Você deseja salvar as alterações "%s"?
@@ -254,7 +254,7 @@ LABEL_THRESHOLD=Limiar
 BC_FILES=Arquivos
 BC_FORMAT=Converter para
 BC_FOLDER=pasta de destino
-BC_OPEN=Abrir arquivos convertidos em Турбориум Green Pixel
+BC_OPEN=Abrir arquivos convertidos em turborium Green Pixel
 BC_ICON_FORMATS=Ícone para criar formatos
 CG_ENABLED=Habilitado
 CG_SIZE=tamanho da célula
@@ -306,7 +306,7 @@ ST_CONVERT=Batch converter arquivos de imagem
 ST_CONVERT_INFO=Converte vários arquivos de imagem em ícones ou para outro formato de imagem
 ST_NONE=Não executar qualquer ação
 ST_NONE_INFO=Fecha essa tela de inicialização
-ST_RECENT_INFO=Abre um arquivo que foi recentemente editado em Турбориум Green Pixel
+ST_RECENT_INFO=Abre um arquivo que foi recentemente editado em turborium Green Pixel
 
 ST_SHOW=Sempre mostrar esta tela na inicialização
 LABEL_MOVE_OVER_IMAGE=Move o cursor sobre a imagem abaixo

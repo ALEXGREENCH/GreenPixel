@@ -1,6 +1,6 @@
-# GreenPixel Web · Турбориум
+# GreenPixel Web · turborium
 
-© 2026 Турбориум. Браузерная реализация GreenPixel в процессе восстановления.
+© 2026 turborium. Браузерная реализация GreenPixel в процессе восстановления.
 
 [Открыть редактор](https://alexgreench.github.io/GreenPixel/) ·
 [Матрица соответствия](docs/PARITY.md) · [255 записей](docs/parity.json)

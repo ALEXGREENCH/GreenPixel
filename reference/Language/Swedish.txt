@@ -1,4 +1,4 @@
-; Турбориум Green Pixel
+; turborium Green Pixel
 ; Language pack: Swedish
 ; Translator: Åke Engelbrektson
 ; Translator Contact: eson57@gmail.com
@@ -37,7 +37,7 @@ B_COMPILE=Kompilera
 MSG_CONFIRMATION=Bekräfta
 MSG_NOT_EXIST="%s" finns inte
 MSG_OVERWRITE=Vill du skriva över "%s"?
-MSG_UNKNOWN_FILE_TYPE=Filformatet på "%s" kan inte avgöras automatiskt.<br>Den här filen kan inte läsas och sparas av Турбориум Green Pixel, eller har fel filändelse.
+MSG_UNKNOWN_FILE_TYPE=Filformatet på "%s" kan inte avgöras automatiskt.<br>Den här filen kan inte läsas och sparas av turborium Green Pixel, eller har fel filändelse.
 MSG_INVALID_FILE_FORMAT="%s" stämmer inte med filformatet "%s".<br>Filen kan vara korrupt, ha fel filändelse, eller fel filter kan ha blivit specificerat i öppningsdialogen.
 MSG_CROPPED=Bilden var större än %dx%d och blev beskuren.<br>Att spara bilden innebär dataförluster.<br>Använd Inställningar/Alternativ för att ändra storleksbegränsningen.
 MSG_SAVE_CHANGES=Vill du spara ändringarna för "%s"?
@@ -320,7 +320,7 @@ BC_FILES=Filer
 BC_SETTINGS=Inställningar
 BC_FORMAT=Konvertera till
 BC_FOLDER=Målmapp
-BC_OPEN=Öppna konverterade filer i Турбориум Green Pixel
+BC_OPEN=Öppna konverterade filer i turborium Green Pixel
 BC_ICON_FORMATS=Välj ikonformat
 
 ; Cell grid dialog
@@ -429,7 +429,7 @@ ST_CONVERT=Batch-konvertera bildfiler
 ST_CONVERT_INFO=Konverterar multipla bildfiler till ikoner eller andra bildformat
 ST_NONE=Gör ingenting
 ST_NONE_INFO=Stänger det här startfönstret
-ST_RECENT_INFO=Öppnar en fil som nyligen har redigerats i Турбориум Green Pixel
+ST_RECENT_INFO=Öppnar en fil som nyligen har redigerats i turborium Green Pixel
 ST_SHOW=Visa alltid detta startfönster vid uppstart
 
 ; Test dialog

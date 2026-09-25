@@ -1,4 +1,4 @@
-; Турбориум Green Pixel
+; turborium Green Pixel
 ; Language pack: Dutch
 ; Created by: Gerrit Doornenbal
 ; Edited by: Freddie Unlandt
@@ -35,7 +35,7 @@ B_COMPILE=Compileren
 MSG_CONFIRMATION=Bevestiging
 MSG_NOT_EXIST="%s" niet gevonden
 MSG_OVERWRITE=Wil je "%s" overschrijven?
-MSG_UNKNOWN_FILE_TYPE=Het bestandsformaat "%s" kon niet automatisch vastgesteld worden. Dit bestand kan niet door Турбориум Green Pixel geopend of bewaard worden.
+MSG_UNKNOWN_FILE_TYPE=Het bestandsformaat "%s" kon niet automatisch vastgesteld worden. Dit bestand kan niet door turborium Green Pixel geopend of bewaard worden.
 MSG_INVALID_FILE_FORMAT=Bestand "%s" voldoet niet aan het "%s" formaat. Het bestand kan corrupt zijn, of de verkeerde extensie hebben, of er is een een incorrect filter gekozen in het Open-venster.
 MSG_CROPPED=De afbeelding was groter dan %dx%d en is bijgesneden. Opslaan van de afbeelding zal verlies van data opleveren. Gebruik Instellingen|Voorkeuren om de max. toegestane grootte van de afbeelding te verhogen.
 MSG_SAVE_CHANGES=Wilt u de wijzigingen in "%s" opslaan?
@@ -318,7 +318,7 @@ BC_FILES=Bestanden
 BC_SETTINGS=Instellingen
 BC_FORMAT=Omzetten naar
 BC_FOLDER=Doel map
-BC_OPEN=Open geconverteerde bestanden in Турбориум Green Pixel
+BC_OPEN=Open geconverteerde bestanden in turborium Green Pixel
 BC_ICON_FORMATS=Icon formaten om te maken
 
 ; Cell grid dialog
@@ -427,7 +427,7 @@ ST_CONVERT=Converteer afbeeldingsbestanden in batch
 ST_CONVERT_INFO=Converteert meerdere afbeeldingsbestanden naar iconen of een ander afbeeldingsformaat.
 ST_NONE=Doe geen van deze acties
 ST_NONE_INFO=Sluit dit opstartscherm af.
-ST_RECENT_INFO=Opent een bestand dat recent gewijzigd is in Турбориум Green Pixel.
+ST_RECENT_INFO=Opent een bestand dat recent gewijzigd is in turborium Green Pixel.
 ST_SHOW=Laat dit scherm altijd zien bij opstarten
 
 ; Test dialog

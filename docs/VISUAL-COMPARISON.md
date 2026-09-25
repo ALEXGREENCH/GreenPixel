@@ -4,7 +4,7 @@ Compared the startup client area at 1920 × 1000 CSS pixels against the supplied
 `codex-clipboard-d4bb0663-a552-472a-83c4-8073969bd64d.png`, cropped at
 (0, 29, 1920, 1029) to exclude the Windows title bar. No reference image was scaled.
 The original open Settings popup, version/copyright label and status hint are
-excluded from the aggregate measurement. The new copyright remains Турбориум.
+excluded from the aggregate measurement. The new copyright remains turborium.
 
 ## Measured changes
 

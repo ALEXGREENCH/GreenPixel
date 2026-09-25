@@ -1,4 +1,4 @@
-; Турбориум Green Pixel
+; turborium Green Pixel
 ; Language pack: Português (pt-PT)
 ; Created by: Carlos Pires (charlypapa@sapo.pt)
 
@@ -26,7 +26,7 @@ B_PRINTER_SETUP=Configurar impressora
 
 ; Shown messages
 MSG_FILE_NOT_FOUND=Não encontro o ficheiro
-MSG_UNKNOWN_FILE_TYPE=O formato do ficheiro "%s" não pode ser determinado automáticamente. Este ficheiro não pode ser salvo ou carregado por Турбориум Green Pixel ou tem uma extenção errada.
+MSG_UNKNOWN_FILE_TYPE=O formato do ficheiro "%s" não pode ser determinado automáticamente. Este ficheiro não pode ser salvo ou carregado por turborium Green Pixel ou tem uma extenção errada.
 MSG_INVALID_FILE_FORMAT=O ficheiro "%s" não está conforme o formato "%s". O ficheiro pode estar corrompido, ter extenção errada, ou ter sido escolhido um filtro incorrecto na caixa de dialogo Abrir.
 MSG_SAVE_CHANGES=Salvar as mudanças a "%s"?
 MSG_CONFIRM_REVERT=Todas as mudanças a "%s" serão perdidas e não recuperaveis. Mesmo assim,deseja continuar?
@@ -226,7 +226,7 @@ CI_SELECT_FORMATS=Seleccione os formatos que deseja criar
 BC_FILES=Ficheiros
 BC_SETTINGS=Settings
 BC_FORMAT=Converter para...
-BC_OPEN=Abrir ficheiros convertidos em Турбориум Green Pixel
+BC_OPEN=Abrir ficheiros convertidos em turborium Green Pixel
 BC_ICON_FORMATS=Criação de formatos de Icone
 
 ; Preferences dialog box
@@ -258,9 +258,9 @@ ST_NEW_INFO=Cria um novo Icone ou Cursor documentado
 ST_OPEN=Abrir um documento existente
 ST_OPEN_INFO=Abrir um Icone, Cursor ou outro ficheiro de imagem de um meio de armazenamento
 ST_RECENT=Abrir um ficheiro recente
-ST_RECENT_INFO=Abre um ficheiro recentemente editado com Турбориум Green Pixel
+ST_RECENT_INFO=Abre um ficheiro recentemente editado com turborium Green Pixel
 ST_EXTRACT=Extrair recursos de um executável
-ST_EXTRACT_INFO=Abre um ficheiro EXE ou DLL e salva todos os icones e cursores encontrados numa pasta. Futuramente poderá abri-los com Турбориум Green Pixel.
+ST_EXTRACT_INFO=Abre um ficheiro EXE ou DLL e salva todos os icones e cursores encontrados numa pasta. Futuramente poderá abri-los com turborium Green Pixel.
 ST_CONVERT=Converter ficheiros de imagem
 ST_CONVERT_INFO=Converte ficheiros multi-imagem  em icones ou num outro formato de imagem
 ST_NONE=Não faz nada

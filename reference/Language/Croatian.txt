@@ -1,4 +1,4 @@
-; Турбориум Green Pixel
+; turborium Green Pixel
 ; Language pack: Croatian
 ; Created by: Anonimac
 
@@ -31,7 +31,7 @@ B_COMPILE=Kompajliraj
 MSG_NOT_EXIST="%s" ne postoji
 MSG_NOT_FOUND_ICLSTUB=Važna datoteka, "Config\iclstub.dll" ne može biti pronađena.<br>Nadomjestite datoteku iz GreenPixel zip paketa.
 MSG_OVERWRITE=Želite li prepisati preko "%s"?
-MSG_UNKNOWN_FILE_TYPE=Format datoteke "%s" se nije mogao automatski odrediti. Ova datoteka ne može biti učitana ili upamćena u Турбориум Green Pixel ili ima pogrešni nastavak.
+MSG_UNKNOWN_FILE_TYPE=Format datoteke "%s" se nije mogao automatski odrediti. Ova datoteka ne može biti učitana ili upamćena u turborium Green Pixel ili ima pogrešni nastavak.
 MSG_INVALID_FILE_FORMAT=Datoteka "%s" ne podržava format "%s".<br>Datoteka može biti pokvarena, može imati pogrešni nastavak, ili je neispravan filter određen u Otvori dijaloški okvir.
 MSG_CROPPED=Slika je bila veća nego %dx%d i isječena je.<br>Spremanje slike će prouzroćiti gubitak podataka.<br>Koristite Pomoć|Postavke da povećate granicu veličine slike.
 MSG_SAVE_CHANGES=Želite li spremiti promjene u "%s"?
@@ -261,7 +261,7 @@ BC_FILES=Datoteke
 BC_SETTINGS=Postavke
 BC_FORMAT=Konvertiraj u
 BC_FOLDER=Izabrana datoteka
-BC_OPEN=Otvori konvertirane datoteke u Турбориум Green Pixel
+BC_OPEN=Otvori konvertirane datoteke u turborium Green Pixel
 BC_ICON_FORMATS=Formati ikona za stvaranje
 
 ; Okvir sa postavkama
@@ -311,7 +311,7 @@ ST_CONVERT=Grupno konvertirane datoteke slika
 ST_CONVERT_INFO=Pretvara više datoteka slika u ikone ili u drugi format slike
 ST_NONE=Ne izvršavaj nikakvu akciju
 ST_NONE_INFO=Zatvara početni zaslon
-ST_RECENT_INFO=Otvara datoteku koja je nedavno uređen u Турбориум Green Pixel
+ST_RECENT_INFO=Otvara datoteku koja je nedavno uređen u turborium Green Pixel
 ST_SHOW=Uvijek pokaži početni zaslon po pokretanju
 
 ; Test okvir

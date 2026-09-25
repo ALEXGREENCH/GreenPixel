@@ -1,4 +1,4 @@
-; Турбориум Green Pixel
+; turborium Green Pixel
 ; Language pack: Română
 ; Created by: Borodi Gheorghe
 
@@ -34,7 +34,7 @@ B_COMPILE=Alcătuire
 MSG_CONFIRMATION=Confirmare
 MSG_NOT_EXIST="%s" nu exista
 MSG_OVERWRITE=Doriţi să suprascrieţi "%s"?
-MSG_UNKNOWN_FILE_TYPE=Formatul de fişier "%s" nu poate fi determinat automat.<br>Acest fişier nu poate fi încărcat sau salvat de Турбориум Green Pixel sau are o extensie greşită.
+MSG_UNKNOWN_FILE_TYPE=Formatul de fişier "%s" nu poate fi determinat automat.<br>Acest fişier nu poate fi încărcat sau salvat de turborium Green Pixel sau are o extensie greşită.
 MSG_INVALID_FILE_FORMAT=File "%s" nu respectă formatul "%s".<br>Fişier poate fi corupt, poate avea o extensie greşită, sau un filtru incorect, poate au fost specificate în caseta de dialog la Deschidere.
 MSG_CROPPED=Imaginea a fost mai mare decât %dx%d şi a fost decupată.<br>Salvarea imaginii va provoca pierderi de date.<br>Folosește Setările|Preferinţe pentru a creşte limita dimensiunii imaginii.
 MSG_SAVE_CHANGES=Doriţi să salvaţi modificările aduse "%s"?
@@ -313,7 +313,7 @@ BC_FILES=Fișiere
 BC_SETTINGS=Setări
 BC_FORMAT=Convertiţi la
 BC_FOLDER=Dosarul ţinta
-BC_OPEN=Deschideţi fişierele convertite în Турбориум Green Pixel
+BC_OPEN=Deschideţi fişierele convertite în turborium Green Pixel
 BC_ICON_FORMATS=Pentru a crea formate de pictograme
 
 ; Cell grid dialog
@@ -421,7 +421,7 @@ ST_CONVERT=Conversie lot de fişiere imagine
 ST_CONVERT_INFO=Conversia mai multor fişiere imagine la icoane sau la un alt format de imagine
 ST_NONE=Nu efectuaţi nicio acţiune
 ST_NONE_INFO=Închide acest ecran de pornire
-ST_RECENT_INFO=Deschide un fişier care a fost recent editat în Турбориум Green Pixel
+ST_RECENT_INFO=Deschide un fişier care a fost recent editat în turborium Green Pixel
 ST_SHOW=Arată întotdeauna acest ecran la pornire
 
 ; Test dialog

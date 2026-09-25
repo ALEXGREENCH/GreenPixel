@@ -1,4 +1,4 @@
-; Турбориум Green Pixel
+; turborium Green Pixel
 ; Language pack: Sebian (Latin)
 ; Created by: Jovan Petrovic
 
@@ -29,7 +29,7 @@ B_COMPILE=Sažmi
 
 ; Prikazane poruke
 MSG_NOT_EXIST="%s" ne postoji
-MSG_UNKNOWN_FILE_TYPE=Format fajla "%s" se nije mogao automatski odrediti. Ovaj fajl ne može biti ucitan ili upamcen u Турбориум Green Pixel ili ima pogrešnu ekstenziju.
+MSG_UNKNOWN_FILE_TYPE=Format fajla "%s" se nije mogao automatski odrediti. Ovaj fajl ne može biti ucitan ili upamcen u turborium Green Pixel ili ima pogrešnu ekstenziju.
 MSG_INVALID_FILE_FORMAT=Fajl "%s" nije kompatibilan sa formatom "%s". Ovaj fajl može biti koruptovan, mo?e imati pogre?nu ekstenziju, ili je ne korektan filter odreden u Otvori kutiji dijaloga.
 MSG_SAVE_CHANGES=Da li želite da sacuvate "%s"?
 MSG_CONFIRM_REVERT=Sve promene nacinjene nad "%s" ce biti izgubljene i ova operacija se ne može opvrgnuti. Da li ste sigurni da želite da nastavite?
@@ -248,7 +248,7 @@ BC_FILES=Fajlovi
 BC_SETTINGS=Podešavanja
 BC_FORMAT=Pretvori u
 BC_FOLDER=Izabrana datoteka
-BC_OPEN=Otvori konvertovane fajlove u Турбориум Green Pixel
+BC_OPEN=Otvori konvertovane fajlove u turborium Green Pixel
 BC_ICON_FORMATS=Formati ikona za stvaranje
 
 ; Create resource file dialog box
@@ -301,14 +301,14 @@ ST_NEW_INFO=Pravi novi dokument ikone ili strelice
 ST_OPEN=Otvori postojeci dokument
 ST_OPEN_INFO=Otvara ikonu, strelicu ili drugu sliku iz medije sa podatcima
 ST_EXTRACT=Izvuci resurse iz izvršive
-ST_EXTRACT_INFO=Otvara EXE ili DLL fajl i cuva sve pronadjene ikone i strelice u jednu datoteku. Tada ih možete otvoriti u Турбориум Green Pixel.
+ST_EXTRACT_INFO=Otvara EXE ili DLL fajl i cuva sve pronadjene ikone i strelice u jednu datoteku. Tada ih možete otvoriti u turborium Green Pixel.
 ST_CONVERT=Grupno konvertovani fajlovi slika
 ST_CONVERT_INFO=Pretvara više fajlova slika u ikone ili u drugi format slike
 ST_RES=Napravi resursni fajl ili ikonicu
 ST_RES_INFO=Sažima .RES ili .ICL fajl iz skupa ikonica ili kurzora
 ST_NONE=Ne izvrši nikakvu stavku
 ST_NONE_INFO=Zatvara pocetnu sliku
-ST_RECENT_INFO=Otvara fajl koji je skoro editovan u Турбориум Green Pixel
+ST_RECENT_INFO=Otvara fajl koji je skoro editovan u turborium Green Pixel
 ST_SHOW=Uvek pokaži pocetnu sliku po startovanju
 
 ; Test prozor

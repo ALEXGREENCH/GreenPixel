@@ -1,4 +1,4 @@
-; Турбориум Green Pixel
+; turborium Green Pixel
 ; Language pack: Indonesian
 ; Created by: Aryo Adhi Wibisono (aryo_adhi@yahoo.com)
 
@@ -34,7 +34,7 @@ B_COMPILE=Kompilasi
 MSG_CONFIRMATION=Konfirmasi
 MSG_NOT_EXIST="%s" tidak ada.
 MSG_OVERWRITE=Anda yakin ingin menimpa "%s"?
-MSG_UNKNOWN_FILE_TYPE=Format file dari "%s" Tidak bisa dibuat.<br>File ini tidak bisa dimuat dan disimpan oleh Турбориум Green Pixel atau mempunyai ekstensi salah.
+MSG_UNKNOWN_FILE_TYPE=Format file dari "%s" Tidak bisa dibuat.<br>File ini tidak bisa dimuat dan disimpan oleh turborium Green Pixel atau mempunyai ekstensi salah.
 MSG_INVALID_FILE_FORMAT=File "%s" bukan berformat "%s".<br>File tsb. mungkin korup, berekstensi salah, atau filter yang salah dari dialog Buka.
 MSG_CROPPED=Gambar ini lebih besar dari %dx%d dan sudah dipotong.<br>Menyimpan ini mungkin membuat kehilangan bbrp data.<br>Gunakan Opsi|Pengaturan untuk menambah batas ukuran gambar.
 MSG_SAVE_CHANGES=Apakah Anda ingin menyimpan "%s"?
@@ -317,7 +317,7 @@ BC_FILES=File
 BC_SETTINGS=Pengaturan
 BC_FORMAT=Konversi ke
 BC_FOLDER=Folder tujuan
-BC_OPEN=Buka file yang dikonversi ke Турбориум Green Pixel
+BC_OPEN=Buka file yang dikonversi ke turborium Green Pixel
 BC_ICON_FORMATS=Format ikon untuk dibuat
 
 ; Cell grid dialog
@@ -426,7 +426,7 @@ ST_CONVERT=Konversi file
 ST_CONVERT_INFO=Mengkonversikan beberapa gambar ke ikon atau ke format yang lain
 ST_NONE=Jangan lakukan apa-apa
 ST_NONE_INFO=Menutup menu startup
-ST_RECENT_INFO=Membuka file yang terakhir diedit Турбориум Green Pixel
+ST_RECENT_INFO=Membuka file yang terakhir diedit turborium Green Pixel
 ST_SHOW=Selalu tampilkan menu ini saat program aktif
 
 ; Test dialog

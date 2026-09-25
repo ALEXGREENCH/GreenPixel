@@ -1,4 +1,4 @@
-; Турбориум Green Pixel
+; turborium Green Pixel
 ; Language pack: Chinese (simplified)
 ; Created by: Hua Yikai
 
@@ -315,7 +315,7 @@ BC_FILES=文件
 BC_SETTINGS=设置
 BC_FORMAT=将文件格式转换为
 BC_FOLDER=转换后存储的目标文件夹
-BC_OPEN=用 Турбориум Green Pixel 打开转换后的文件
+BC_OPEN=用 turborium Green Pixel 打开转换后的文件
 BC_ICON_FORMATS=转换后的图标格式
 
 ; Cell grid dialog

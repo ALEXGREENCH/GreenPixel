@@ -1,4 +1,4 @@
-; Турбориум Green Pixel
+; turborium Green Pixel
 ; Language pack: French (France)
 ; Created by: François Cerveau 
 
@@ -226,7 +226,7 @@ MI_SET_LANGUAGE=Langue
 
 MI_HELP=Aide
 MI_HELP_CONTENTS=Sommaire de l'aide
-MI_HELP_HOMEPAGE=Site de Турбориум
+MI_HELP_HOMEPAGE=Site de turborium
 MI_HELP_SUPPORT=Assistance en ligne
 MI_HELP_DONATE=Faites un don
 MI_HELP_ABOUT=À propos de 
@@ -317,7 +317,7 @@ BC_FILES=Fichiers
 BC_SETTINGS=Configuration
 BC_FORMAT=Convertir en
 BC_FOLDER=Dossier-cible
-BC_OPEN=Ouvrir les fichiers convertis dans Турбориум Green Pixel
+BC_OPEN=Ouvrir les fichiers convertis dans turborium Green Pixel
 BC_ICON_FORMATS=Formats d'icône à créer
 ;
 ; Cell grid dialog
@@ -392,7 +392,7 @@ PREF_DVM_ITEMS=Icônes<br>Liste<br>Détails<br>Miniatures<br>Mosaïque
 PREF_MWA=Action de la molette de la souris
 PREF_MWA_ITEMS=Aucune<br>Défilement<br>Zoom
 PREF_SAVE_TOOL_SETTINGS=Conserver les réglages d'outils entre les sessions
-PREF_FILE_ASSOC=Extensions de fichiers à ouvrir par défaut avec Турбориум Green Pixel
+PREF_FILE_ASSOC=Extensions de fichiers à ouvrir par défaut avec turborium Green Pixel
 PREF_ADMIN=Noter que sous Windows Vista ou ultérieur, GreenPixel ne peut modifier ces paramètres que s'il est exécuté en mode administrateur.
 
 ; Print dialog
@@ -426,7 +426,7 @@ ST_CONVERT=Convertir des fichiers image par lot
 ST_CONVERT_INFO=Convertit plusieurs fichiers image en icône ou en un autre type d'image
 ST_NONE=Ne rien faire
 ST_NONE_INFO=Ferme cet écran d'accueil
-ST_RECENT_INFO=Ouvre un fichier récemment édité dans Турбориум Green Pixel
+ST_RECENT_INFO=Ouvre un fichier récemment édité dans turborium Green Pixel
 ST_SHOW=Toujours afficher cet écran au démarrage de l'application
 
 ; Test dialog

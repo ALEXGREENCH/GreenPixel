@@ -1,4 +1,4 @@
-; Турбориум Green Pixel
+; turborium Green Pixel
 ; Language pack: Chinese Traditional (正體中文)
 ; Created by: Shih-Huang Wu (shuang.wu@m2k.com.tw)
 

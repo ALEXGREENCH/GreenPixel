@@ -1,4 +1,4 @@
-; Турбориум Green Pixel
+; turborium Green Pixel
 ; Language pack: Finnish
 ; Created by: VeikkoM
 
@@ -34,7 +34,7 @@ B_COMPILE=Käännä
 MSG_CONFIRMATION=Vahvistus
 MSG_NOT_EXIST="%s" ei ole
 MSG_OVERWRITE=Haluatko korvata kohteen "%s"?
-MSG_UNKNOWN_FILE_TYPE=Tiedostomuotoa "%s" ei voitu määrittää automaattisesti.<br>Tätä tiedostoa ei voi ladata tai tallentaa ohjelmalla Турбориум Green Pixel tai tiedostolla on väärä tunnus.
+MSG_UNKNOWN_FILE_TYPE=Tiedostomuotoa "%s" ei voitu määrittää automaattisesti.<br>Tätä tiedostoa ei voi ladata tai tallentaa ohjelmalla turborium Green Pixel tai tiedostolla on väärä tunnus.
 MSG_INVALID_FILE_FORMAT=Tiedosto "%s" ei täytä "%s" muotoa.<br>Tiedosto saattaa olla vahingoittunut, sillä voi olla väärä tunniste tai Avaa-valintaikkunassa on määritetty virheellinen suodatin.
 MSG_CROPPED=Kuva oli isompi kuin %dx %d ja oli rajattu.<br>Kuvan tallentaminen aiheuttaa tietojen häviämisen.<br>Käytä Asetukset|Ominaisuudet muuttaaksesi kuvakoon raja-asetuksia.
 MSG_SAVE_CHANGES=Haluatko tallentaa muutokset kohteeseen "%s"?
@@ -318,7 +318,7 @@ BC_FILES=Tiedostot
 BC_SETTINGS=Asetukset
 BC_FORMAT=Muunna 
 BC_FOLDER=Kohdekansio
-BC_OPEN=Avaa muunnetut tiedostot ohjelmalla Турбориум Green Pixel
+BC_OPEN=Avaa muunnetut tiedostot ohjelmalla turborium Green Pixel
 BC_ICON_FORMATS=Kuvakkeiden muodon luominen
 
 ; Cell grid dialog
@@ -427,7 +427,7 @@ ST_CONVERT=Erämuunna  kuvatiedostoja
 ST_CONVERT_INFO=Muuntaa useita kuvatiedostoja kuvakkeiksi tai toiseen muotoon
 ST_NONE=Ei toimintoa
 ST_NONE_INFO=Sulkee alkunäytön
-ST_RECENT_INFO=Avaa tiedosto, joka on äskettäin muokattu ohjelmalla Турбориум Green Pixel
+ST_RECENT_INFO=Avaa tiedosto, joka on äskettäin muokattu ohjelmalla turborium Green Pixel
 ST_SHOW=Näytä tämä näyttö käynnistettäessä
 
 ; Test dialog

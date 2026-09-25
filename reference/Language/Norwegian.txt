@@ -1,4 +1,4 @@
-; Турбориум Green Pixel
+; turborium Green Pixel
 ; Language pack: English
 ; Created by: Åsmund Wego
 
@@ -34,7 +34,7 @@ B_COMPILE=Kompiler
 MSG_CONFIRMATION=Bekreftelse
 MSG_NOT_EXIST="%s" eksisterer ikke
 MSG_OVERWRITE=Vil du overskrive "%s"?
-MSG_UNKNOWN_FILE_TYPE=Filformatet for "%s" kunne ikke gjenkjennes. Denne filen kan ikke åpnes eller lagres av Турбориум Green Pixel, eller den har feil filtype.
+MSG_UNKNOWN_FILE_TYPE=Filformatet for "%s" kunne ikke gjenkjennes. Denne filen kan ikke åpnes eller lagres av turborium Green Pixel, eller den har feil filtype.
 MSG_INVALID_FILE_FORMAT=File "%s" samsvarer ikke med formatet "%s". Filen kan være korrupt, har feil filtype, eller at feil filter er valgt i dialogen for å åpne fil.
 MSG_CROPPED=Bildet var større enn %dx%d og ble klippet. Lagring vil føre til tap av data. Bruk Innstillinger|Preferanser for å øke grensen for bildestørrelse.
 MSG_SAVE_CHANGES=Vil du lagre endringene som er gjort i "%s"?
@@ -227,7 +227,7 @@ MI_HELP_CONTENTS=Innhold
 MI_HELP_HOMEPAGE=Hjemmeside
 MI_HELP_SUPPORT=Internettsupport
 MI_HELP_DONATE=Doner penger
-MI_HELP_ABOUT=Om Турбориум Green Pixel
+MI_HELP_ABOUT=Om turborium Green Pixel
 
 ; Pixel Format to String
 PF_1_BIT=1-bit
@@ -315,7 +315,7 @@ BC_FILES=Filer
 BC_SETTINGS=Innstillinger
 BC_FORMAT=Konverter til
 BC_FOLDER=Målkatalog
-BC_OPEN=Åpne konverterte filer i Турбориум Green Pixel
+BC_OPEN=Åpne konverterte filer i turborium Green Pixel
 BC_ICON_FORMATS=Ikonformater du vil opprette
 
 ; Cell grid dialog
@@ -424,7 +424,7 @@ ST_CONVERT=Konverter et knippe bildefiler satsvis
 ST_CONVERT_INFO=Konverterer flere bilder til ikoner eller andre bildeformater i en operasjon
 ST_NONE=Ikke gjør noe spesielt
 ST_NONE_INFO=Lukker denne velkomstskjermen
-ST_RECENT_INFO=Åpner en fil som var nylig åpnet i Турбориум Green Pixel
+ST_RECENT_INFO=Åpner en fil som var nylig åpnet i turborium Green Pixel
 ST_SHOW=Vis alltid denne velkomstskjermen ved oppstart
 
 ; Test dialog

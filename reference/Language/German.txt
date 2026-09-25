@@ -1,4 +1,4 @@
-; Турбориум Green Pixel
+; turborium Green Pixel
 ; Language pack: German
 ; Created by: Arno Krumpholz (clickfish@gmail.com - www.cappoodoo.de) and modified by W. Lenz, Feb 13,2012
 ; Corrections by Ingo Brückl, May 2012
@@ -35,7 +35,7 @@ B_COMPILE=Kompilieren
 MSG_CONFIRMATION=Bestätigung
 MSG_NOT_EXIST="%s" existiert nicht
 MSG_OVERWRITE=Möchten Sie "%s" überschreiben?
-MSG_UNKNOWN_FILE_TYPE=Das Dateiformat von "%s" lässt sich nicht automatisch bestimmen. Diese Datei lässt sich nicht mit Турбориум Green Pixel laden oder speichern oder hat eine falsche Erweiterung.
+MSG_UNKNOWN_FILE_TYPE=Das Dateiformat von "%s" lässt sich nicht automatisch bestimmen. Diese Datei lässt sich nicht mit turborium Green Pixel laden oder speichern oder hat eine falsche Erweiterung.
 MSG_INVALID_FILE_FORMAT=Datei "%s" passt nicht zum Format "%s". Die Datei ist möglicherweise beschädigt, hat eine falsche Erweiterung oder es wurde ein falscher Filter in der Öffnen-Dialogbox ausgewählt.
 MSG_CROPPED=Das Bild ist größer als %dx%d und wurde abgeschnitten. Beim Speichern des Bildes könnte Datenverlust auftreten. Unter Extra|Einstellungen können Sie das Limit der Bildgröße erhöhen.
 MSG_SAVE_CHANGES=Möchten Sie die Änderungen in "%s" speichern?
@@ -320,7 +320,7 @@ BC_FILES=Dateien
 BC_SETTINGS=Einstellungen
 BC_FORMAT=Konvertieren nach
 BC_FOLDER=Zielordner
-BC_OPEN=Konvertierte Dateien in Турбориум Green Pixel öffnen
+BC_OPEN=Konvertierte Dateien in turborium Green Pixel öffnen
 BC_ICON_FORMATS=Symbolformate zum Erstellen
 
 ; Cell grid dialog
@@ -429,7 +429,7 @@ ST_CONVERT=Grafikdateien im Batch konvertieren
 ST_CONVERT_INFO=Konvertiert mehrere Bilddateien zu Icons oder in ein anderes Bildformat
 ST_NONE=Keine Aktion
 ST_NONE_INFO=Schließt dieses Startfenster
-ST_RECENT_INFO=Öffnet eine mit Турбориум Green Pixel kürzlich bearbeitete Datei
+ST_RECENT_INFO=Öffnet eine mit turborium Green Pixel kürzlich bearbeitete Datei
 ST_SHOW=Dieses Fenster beim Start immer anzeigen.
 
 ; Test dialog

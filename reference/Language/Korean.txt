@@ -1,4 +1,4 @@
-; Турбориум Green Pixel
+; turborium Green Pixel
 ; Language pack: 한국어
 ; Created by: JaeHyung Lee (http://webnest.net/)
 

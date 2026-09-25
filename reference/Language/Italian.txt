@@ -1,4 +1,4 @@
-; Турбориум Green Pixel
+; turborium Green Pixel
 ; Language pack: Italiano
 ; Created by: Maurizio Peroni, Massimo Manca
 
@@ -34,7 +34,7 @@ B_COMPILE=Compila
 MSG_CONFIRMATION=Conferma
 MSG_NOT_EXIST="%s" non esiste
 MSG_OVERWRITE=Vuoi registra sopra a "%s"?
-MSG_UNKNOWN_FILE_TYPE=Il formato del file "%s" non è stato determinato automaticamente.<br>Questo file non può essere aperto o salvato da Турбориум Green Pixel oppure ha un estensione non valida.
+MSG_UNKNOWN_FILE_TYPE=Il formato del file "%s" non è stato determinato automaticamente.<br>Questo file non può essere aperto o salvato da turborium Green Pixel oppure ha un estensione non valida.
 MSG_INVALID_FILE_FORMAT=Il file "%s" ha un formato diverso da "%s".<br>Il file può essere corrotto, può avere un estensione non valida, oppure è stato scelto un filtro scorretto nel dialog.
 MSG_CROPPED=L'immagine è stato tagliato per essere più grande di %dx%d.<br>Salvare l'immagine causerà perdita di dati.<br>Usa Opzioni|Preferenze per aumentare il limite dei dimensioni d'immagine.
 MSG_SAVE_CHANGES=Vuoi salvare le modifiche in "%s"?
@@ -316,7 +316,7 @@ BC_FILES=File
 BC_SETTINGS=Opzioni
 BC_FORMAT=Converti in
 BC_FOLDER=Cartella di destinazione
-BC_OPEN=Apri i file convertiti in Турбориум Green Pixel
+BC_OPEN=Apri i file convertiti in turborium Green Pixel
 BC_ICON_FORMATS=Formati d'icona da creare
 
 ; Cell grid dialog
@@ -425,7 +425,7 @@ ST_CONVERT=Converti una selezione di immagini
 ST_CONVERT_INFO=Converte la selezione di immagini creando icone o immagini di diverso formato
 ST_NONE=Non fare niente
 ST_NONE_INFO=Chiude questa finestra d'inizio
-ST_RECENT_INFO=Apre un file che è stato modificato recentemente usando Турбориум Green Pixel
+ST_RECENT_INFO=Apre un file che è stato modificato recentemente usando turborium Green Pixel
 ST_SHOW=Mostra sempre questa finestra all'inizio
 
 ; Test dialog

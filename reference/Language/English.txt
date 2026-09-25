@@ -1,4 +1,4 @@
-; Турбориум Green Pixel
+; turborium Green Pixel
 ; Language pack: English
 ; Created by: Balázs Szalkai
 
@@ -34,7 +34,7 @@ B_COMPILE=Compile
 MSG_CONFIRMATION=Confirmation
 MSG_NOT_EXIST="%s" does not exist
 MSG_OVERWRITE=Do you want to overwrite "%s"?
-MSG_UNKNOWN_FILE_TYPE=The file format of "%s" could not be automatically determined.<br>This file cannot be loaded or saved by Турбориум Green Pixel or has a wrong extension.
+MSG_UNKNOWN_FILE_TYPE=The file format of "%s" could not be automatically determined.<br>This file cannot be loaded or saved by turborium Green Pixel or has a wrong extension.
 MSG_INVALID_FILE_FORMAT=File "%s" does not meet the format "%s".<br>The file may be corrupt, may have a wrong extension, or an incorrect filter may have been specified in the Open dialog box.
 MSG_CROPPED=The image was bigger than %dx%d and was cropped.<br>Saving the image will cause loss of data.<br>Use Settings|Preferences to increase the limit of image size.
 MSG_SAVE_CHANGES=Do you want to save changes to "%s"?
@@ -328,7 +328,7 @@ BC_FILES=Files
 BC_SETTINGS=Settings
 BC_FORMAT=Convert to
 BC_FOLDER=Target folder
-BC_OPEN=Open converted files in Турбориум Green Pixel
+BC_OPEN=Open converted files in turborium Green Pixel
 BC_ICON_FORMATS=Icon formats to create
 
 ; Cell grid dialog
@@ -439,10 +439,10 @@ ST_OPEN_INFO=Opens an image file, icon library, executable or resource file from
 ST_CONVERT=Batch convert image files
 ST_CONVERT_INFO=Converts multiple image files to icons or to another image format
 ST_OPEN_SAMPLE=Open sample
-ST_OPEN_SAMPLE_INFO=Open the sample image that was created using a Турбориум GreenPixel
+ST_OPEN_SAMPLE_INFO=Open the sample image that was created using a turborium GreenPixel
 ST_NONE=Do not perform any action
 ST_NONE_INFO=Closes this startup screen
-ST_RECENT_INFO=Opens a file which was recently edited in Турбориум GreenPixel
+ST_RECENT_INFO=Opens a file which was recently edited in turborium GreenPixel
 ST_SHOW=Always show this screen on startup
 
 ; Test dialog

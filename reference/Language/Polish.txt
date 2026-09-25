@@ -1,4 +1,4 @@
-; Турбориум Green Pixel
+; turborium Green Pixel
 ; Language pack: Polish
 ; Created by: Adam Godula (www.godula.com), Wojciech Berkowski
 
@@ -34,7 +34,7 @@ B_COMPILE=Kompiluj
 MSG_CONFIRMATION=Potwierdzenie
 MSG_NOT_EXIST="%s" nie istnieje
 MSG_OVERWRITE=Czy chcesz nadpisać "%s"?
-MSG_UNKNOWN_FILE_TYPE=Format pliku "%s" nie może być określony automatycznie.<br>Ten plik nie może być załadowany lub zapisany przez Турбориум Green Pixel lub ma złe rozszerzenie.
+MSG_UNKNOWN_FILE_TYPE=Format pliku "%s" nie może być określony automatycznie.<br>Ten plik nie może być załadowany lub zapisany przez turborium Green Pixel lub ma złe rozszerzenie.
 MSG_INVALID_FILE_FORMAT=Plik "%s" nie spełnia formatu "%s".<br>Plik może być uszkodzony, może mieć złe rozszerzenie, lub nieprawidłowy filtr został zastosowany w oknie Otwórz.
 MSG_CROPPED=Obraz był większy niż %dx%d i został przycięty.<br>Zapisanie obrazu spowoduje utratę danych.<br>Wybierz Ustawienia|Preferencje aby zwiększyć rozmiar obrazu.
 MSG_SAVE_CHANGES=Czy chcesz zachować zmiany w "%s"?
@@ -317,7 +317,7 @@ BC_FILES=Pliki
 BC_SETTINGS=Ustawienia
 BC_FORMAT=Konwersja do
 BC_FOLDER=Folder docelowy
-BC_OPEN=Otwórz konwertowane pliki w Турбориум Green Pixel
+BC_OPEN=Otwórz konwertowane pliki w turborium Green Pixel
 BC_ICON_FORMATS=Tworzone formaty ikon
 
 ; Cell grid dialog

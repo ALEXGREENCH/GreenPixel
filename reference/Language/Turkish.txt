@@ -1,4 +1,4 @@
-; Турбориум Green Pixel
+; turborium Green Pixel
 ; Language pack: Turkish
 ; Created by: mhsmaslan@gmail.com
 
@@ -34,7 +34,7 @@ B_COMPILE=Derle
 MSG_CONFIRMATION=Confirmation
 MSG_NOT_EXIST="%s" mevcut değil
 MSG_OVERWRITE="%s" üzerine yazmak ister misiniz?
-MSG_UNKNOWN_FILE_TYPE="% s" dosya formatı otomatik olarak belirlenemedi.<br>Dosya yüklenemedi yada Турбориум Green Pixel tarafından kaydedilmemiş veya yanlış bir uzantıya sahip.
+MSG_UNKNOWN_FILE_TYPE="% s" dosya formatı otomatik olarak belirlenemedi.<br>Dosya yüklenemedi yada turborium Green Pixel tarafından kaydedilmemiş veya yanlış bir uzantıya sahip.
 MSG_INVALID_FILE_FORMAT=File "%s" does not meet the format "%s".<br>The file may be corrupt, may have a wrong extension, or an incorrect filter may have been specified in the Open dialog box.
 MSG_CROPPED=The image was bigger than %dx%d and was cropped.<br>Saving the image will cause loss of data.<br>Use Settings|Preferences to increase the limit of image size.
 MSG_SAVE_CHANGES="%s" için değişiklikleri kaydetmek istiyor musunuz?
@@ -317,7 +317,7 @@ BC_FILES=Dosyalar
 BC_SETTINGS=Ayarlar
 BC_FORMAT=Dönüştür
 BC_FOLDER=Hedef klasör
-BC_OPEN=Dönüştürülen dosyaları Турбориум Green Pixel açın
+BC_OPEN=Dönüştürülen dosyaları turborium Green Pixel açın
 BC_ICON_FORMATS=Simge biçimleri oluşturmak için
 
 ; Cell grid dialog
@@ -426,7 +426,7 @@ ST_CONVERT=Görüntü dosyalarını toplu dönüştür
 ST_CONVERT_INFO=Birden fazla resim dosyalarını simge veya başka görüntü biçimine dönüştür
 ST_NONE=Herhangi bir eylem yapmayın
 ST_NONE_INFO=Bu başlangıç ​​ekranı kapatır
-ST_RECENT_INFO=Son zamanlarda Турбориум Green Pixel düzenlenebilir bir dosya açar
+ST_RECENT_INFO=Son zamanlarda turborium Green Pixel düzenlenebilir bir dosya açar
 ST_SHOW=Her zaman başlangıçta bu ekran göster
 
 ; Test dialog

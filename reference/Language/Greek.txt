@@ -1,4 +1,4 @@
-; Турбориум Green Pixel
+; turborium Green Pixel
 ; Language pack: Greek
 ; Created by: Theodoros Stefanidhes, edit by: Sotiris Markou
 
@@ -321,7 +321,7 @@ BC_FILES=Αρχεία
 BC_SETTINGS=Ρυθμίσεις
 BC_FORMAT=Μετατροπή σε
 BC_FOLDER=Φάκ. προορισμού
-BC_OPEN=Άνοιγμα μετατρεπόμενων αρχείων στο Турбориум Green Pixel
+BC_OPEN=Άνοιγμα μετατρεπόμενων αρχείων στο turborium Green Pixel
 BC_ICON_FORMATS=Μορφές εικονιδίων για δημιουργία
 
 ; Cell grid dialog
@@ -430,7 +430,7 @@ ST_CONVERT=Μετατροπή δέσμης αρχείων εικόνας
 ST_CONVERT_INFO=Μετατρέπει πολλαπλά αρχεία εικόνας σε εικονίδια η σε άλλες μορφές εικόνας
 ST_NONE=Να μην εκτελεστεί οποιαδήποτε ενέργεια
 ST_NONE_INFO=Κλείσιμο αυτού του παραθύρου έναρξης
-ST_RECENT_INFO=Ανοίγει ένα πρόσφατα επεξεργασμένο αρχείο από το Турбориум Green Pixel
+ST_RECENT_INFO=Ανοίγει ένα πρόσφατα επεξεργασμένο αρχείο από το turborium Green Pixel
 ST_SHOW=Πάντα εμφάνιση αυτού του παράθυρου στην έναρξη
 
 ; Test dialog

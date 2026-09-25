@@ -1,4 +1,4 @@
-; Турбориум Green Pixel
+; turborium Green Pixel
 ; Language pack: Hungarian
 ; Created by: Balázs Szalkai
 
@@ -34,7 +34,7 @@ B_COMPILE=Lefordít
 MSG_CONFIRMATION=Megerősítés
 MSG_NOT_EXIST="%s" nem található
 MSG_OVERWRITE=Biztosan felül akarod írni "%s"-t?
-MSG_UNKNOWN_FILE_TYPE="%s" fájlformátuma nem dönthető el automatikusan.<br>Ezt a fájlt a Турбориум Green Pixel nem tudja megnyitni vagy elmenteni, vagy hibás a fájl kiterjesztése.
+MSG_UNKNOWN_FILE_TYPE="%s" fájlformátuma nem dönthető el automatikusan.<br>Ezt a fájlt a turborium Green Pixel nem tudja megnyitni vagy elmenteni, vagy hibás a fájl kiterjesztése.
 MSG_INVALID_FILE_FORMAT=A(z) "%s" fájl nem "%s" formátumú.<br>A fájl hibás, helytelen a kiterjesztése, vagy nem megfelelő fájltípus lett kiválasztva a Megnyitás párbeszédablakban.
 MSG_CROPPED=A kép %dx%d-nél nagyobb volt, így a GreenPixel méretre vágta.<br>A kép mentése adatvesztést fog okozni.<br>A Beállítások|Konfiguráció menüpont segítségével növelheted a megengedett képméretet.
 MSG_SAVE_CHANGES=Szeretnéd menteni "%s" változtatásait?
@@ -318,7 +318,7 @@ BC_FILES=Fájlok
 BC_SETTINGS=Beállítások
 BC_FORMAT=Célformátum
 BC_FOLDER=Célmappa
-BC_OPEN=A konvertált fájlok megnyitása a Турбориум Green Pixel-ban
+BC_OPEN=A konvertált fájlok megnyitása a turborium Green Pixel-ban
 BC_ICON_FORMATS=Készítendő képformátumok
 
 ; Cell grid dialog
@@ -427,7 +427,7 @@ ST_CONVERT=Több kép együttes konverziója
 ST_CONVERT_INFO=Egyszerre több képet konvertál .ICO-, vagy más megadott képformátumba
 ST_NONE=Semmilyen műveletet ne hajtson végre
 ST_NONE_INFO=Bezárja ezt a kezdőképernyőt
-ST_RECENT_INFO=Egy, a Турбориум Green Pixel-val nemrég szerkesztett fájlt nyit meg
+ST_RECENT_INFO=Egy, a turborium Green Pixel-val nemrég szerkesztett fájlt nyit meg
 ST_SHOW=Indításkor mindig jelenjen meg ez az ablak
 
 ; Test dialog
