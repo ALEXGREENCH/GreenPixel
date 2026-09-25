@@ -27,3 +27,9 @@ GreenPixel Web: © 2026 Турбориум. GNU GPL version 3: [LICENSE](LICENSE
 
 Исходники самого GreenPixel 4.0.3.1 не восстановлены. Браузерный код — новая
 реализация. EXE и DLL не поставляются и не исполняются веб-приложением.
+
+## jpeg2000 1.1.1
+RGBA JPEG 2000 decoding uses https://github.com/runk/jpeg2000 (derived from
+Mozilla PDF.js), Apache-2.0. License: src/vendor/jpeg2000/LICENCE.
+Local adaptations: CommonJS converted to ES modules; integer reads use
+Uint8Array rather than Node Buffer. Third-party copyright notices retained.
