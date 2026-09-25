@@ -10,3 +10,4 @@
 *.txt text eol=lf
 reference/** -whitespace
 src/vendor/** -whitespace
+assets/** -whitespace
