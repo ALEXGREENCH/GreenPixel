@@ -1,11 +1,11 @@
 {
   "name": "greenpixel-web",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "private": true,
   "type": "module",
   "scripts": {
     "start": "node scripts/build.mjs && node scripts/serve.mjs",
-    "test": "node --test",
+    "test": "node --test test/*.test.js",
     "build": "node scripts/build.mjs"
   },
   "engines": {
