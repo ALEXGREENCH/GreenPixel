@@ -1,0 +1,66 @@
+import {coverageAt,brushCoverage,shapeCoverage} from './coverage.js';
+import {cursorComposite} from './cursor-composite.js';
+import {blendPixel,hsl as hsv,rgbHsl as rgb} from './blend.js';
+import {composite} from './model.js';
+export function walkLine(x0,y0,x1,y1,put){let dx=Math.abs(x1-x0),dy=-Math.abs(y1-y0),sx=x0<x1?1:-1,sy=y0<y1?1:-1,err=dx+dy;while(true){put(x0,y0);if(x0===x1&&y0===y1)break;const e=2*err;if(e>=dy){err+=dy;x0+=sx;}if(e<=dx){err+=dx;y0+=sy;}}}
+export function paint(p,x,y,c,opts={}){if(p.floating){const f=p.floating;return paint({width:f.width,height:f.height,selection:null,layers:[{...f,selected:true}]},x-f.x,y-f.y,c,opts);}const size=opts.size||1,half=Math.floor(size/2);for(let dy=0;dy<size;dy++)for(let dx=0;dx<size;dx++){
+  const px=x+dx-half,py=y+dy-half;if(px<0||py<0||px>=p.width||py>=p.height)continue;const n=py*p.width+px;
+  if(p.selection&&!p.selection[n])continue;
+  const coverage=brushCoverage(dx,dy,size,opts.shape||'sharp',!!opts.antialias)*(opts.coverage??1)*(p.selection?p.selection[n]/255:1);if(!coverage)continue;
+  if(opts.pattern){const active=opts.patternMask?!!opts.patternMask[(py%8)*8+px%8]:((px+py)&1)===0;if(active===!!opts.patternInvert)continue;}
+  for(const l of p.layers.filter(l=>l.selected)){
+    const i=n*4;
+    if(opts.erase){l.pixels[i+3]*=1-(opts.strength??1)*coverage;l.inverted[n]=0;}
+    else if(opts.inverted){l.inverted[n]=1;l.pixels[i+3]=0;}
+    else if(c[3]===0){l.pixels[i+3]*=1-coverage;if(!l.pixels[i+3])l.pixels.fill(0,i,i+4);l.inverted[n]=0;}
+    else {if(opts.recolor&&opts.target&&Math.max(...[0,1,2].map(k=>Math.abs(l.pixels[i+k]-opts.target[k])))>(opts.tolerance||0)*2.55)continue;blendPixel(l.pixels,i,c,0,coverage);l.inverted[n]=0;}
+  }
+}}
+export function region(data,w,h,x,y,tolerance=0,contiguous=true){const result=new Uint8Array(w*h),start=y*w+x;if(x<0||y<0||x>=w||y>=h)return result;const target=data.slice(start*4,start*4+4),match=n=>target.every((v,c)=>Math.abs(data[n*4+c]-v)<=tolerance*2.55);
+  if(!contiguous){for(let n=0;n<w*h;n++)if(match(n))result[n]=255;return result;}
+  const stack=[start];result[start]=255;while(stack.length){const n=stack.pop(),px=n%w;for(const k of [px?n-1:-1,px<w-1?n+1:-1,n-w,n+w])if(k>=0&&k<w*h&&!result[k]&&match(k)){result[k]=255;stack.push(k);}}return result;
+}
+export function bucket(p,x,y,c,opts={}){if(p.floating){const f=p.floating;return bucket({width:f.width,height:f.height,selection:null,layers:[{...f,selected:true,visible:true,opacity:255,blendMode:'normal'}]},x-f.x,y-f.y,c,opts);}const src=opts.sampleAll?composite(p):p.layers.find(l=>l.selected)?.pixels;if(!src)return;const mask=region(src,p.width,p.height,x,y,opts.tolerance,opts.contiguous);for(let n=0;n<mask.length;n++)if(mask[n])paint(p,n%p.width,Math.floor(n/p.width),c,{...opts,size:1});}
+export function shape(p,a,b,c,opts={}){let [x0,y0]=a,[x1,y1]=b;if(opts.square){const d=Math.max(Math.abs(x1-x0),Math.abs(y1-y0));x1=x0+Math.sign(x1-x0||1)*d;y1=y0+Math.sign(y1-y0||1)*d;}
+  if(opts.antialias&&!opts.inverted){const mask=shapeCoverage(p,[x0,y0],[x1,y1],opts.kind,opts.filled,opts.size,true);for(let n=0;n<mask.length;n++)if(mask[n])paint(p,n%p.width,Math.floor(n/p.width),c,{...opts,size:1,shape:'sharp',antialias:false,coverage:mask[n]/255});return;}
+  if(opts.kind==='line'){walkLine(x0,y0,x1,y1,(x,y)=>paint(p,x,y,c,opts));return;}
+  const left=Math.min(x0,x1),top=Math.min(y0,y1),right=Math.max(x0,x1),bottom=Math.max(y0,y1),rx=(right-left+1)/2,ry=(bottom-top+1)/2,cx=left+rx-.5,cy=top+ry-.5;
+  for(let y=top;y<=bottom;y++)for(let x=left;x<=right;x++){let inside=true,border=x===left||x===right||y===top||y===bottom;
+    if(opts.kind==='ellipse'){const d=((x-cx)/rx)**2+((y-cy)/ry)**2;inside=d<=1;border=d>=Math.max(0,1-2/Math.min(rx,ry));}
+    if(inside&&(opts.filled||border))paint(p,x,y,c,{...opts,size:opts.filled?1:opts.size});
+  }
+}
+export function combineSelection(p,mask,mode='replace'){if(!p.selection||mode==='replace'){p.selection=mask;return;}for(let i=0;i<mask.length;i++)p.selection[i]=mode==='add'?Math.max(p.selection[i],mask[i]):mode==='subtract'?Math.max(0,p.selection[i]-mask[i]):Math.min(p.selection[i],mask[i]);}
+export function shapeMask(p,a,b,kind='rect',smooth=false){return shapeCoverage(p,a,b,kind,true,1,smooth);}
+export function polygonMask(p,points,smooth=false){if(smooth){const mask=new Uint8Array(p.width*p.height);const inside=(x,y)=>{let hit=false;for(let i=0,j=points.length-1;i<points.length;j=i++){const a=points[i],b=points[j];if((a[1]>y)!==(b[1]>y)&&x<(b[0]-a[0])*(y-a[1])/(b[1]-a[1])+a[0])hit=!hit;}return hit;};for(let y=0;y<p.height;y++)for(let x=0;x<p.width;x++)mask[y*p.width+x]=Math.round(255*coverageAt(x,y,inside));return mask;}const mask=new Uint8Array(p.width*p.height);for(let y=0;y<p.height;y++)for(let x=0;x<p.width;x++){let inside=false;for(let i=0,j=points.length-1;i<points.length;j=i++){const a=points[i],b=points[j];if((a[1]>y)!==(b[1]>y)&&x<(b[0]-a[0])*(y-a[1])/(b[1]-a[1])+a[0])inside=!inside;}if(inside)mask[y*p.width+x]=255;}return mask;}
+export function selectionBounds(p){let l=p.width,t=p.height,r=-1,b=-1;for(let i=0;i<p.width*p.height;i++)if(!p.selection||p.selection[i]){const x=i%p.width,y=Math.floor(i/p.width);l=Math.min(l,x);r=Math.max(r,x);t=Math.min(t,y);b=Math.max(b,y);}return r<l?null:{x:l,y:t,width:r-l+1,height:b-t+1};}
+export function floatSelection(p,cut=true){if(p.floating)return p.floating;const b=selectionBounds(p);if(!b)return null;const selected=p.layers.filter(l=>l.selected);if(!selected.length)return null;const selectedPage={...p,layers:selected.map(l=>({...l,visible:true,opacity:255,blendMode:"normal"}))},special=selected.some(l=>l.inverted.some(Boolean)),merged=special?cursorComposite(selectedPage):{pixels:composite(selectedPage)},data=merged.pixels,pixels=new Uint8ClampedArray(b.width*b.height*4),inverted=new Uint8Array(b.width*b.height);for(let y=0;y<b.height;y++)for(let x=0;x<b.width;x++){const n=(y+b.y)*p.width+x+b.x,k=y*b.width+x;if(p.selection&&!p.selection[n])continue;pixels.set(data.subarray(n*4,n*4+4),k*4);inverted[k]=merged.inverted?.[n]||0;for(const l of selected){if(cut){l.pixels.fill(0,n*4,n*4+4);l.inverted[n]=0;}}}p.floating={...b,pixels,inverted,angle:0,layerId:selected.at(-1).id};p.selection=null;return p.floating;}
+export function anchor(p){const f=p.floating;if(!f){p.selection=null;return;}const l=p.layers.find(l=>l.id===f.layerId)||p.layers.findLast(l=>l.selected);if(!l)return;for(let y=0;y<f.height;y++)for(let x=0;x<f.width;x++){const px=f.x+x,py=f.y+y;if(px<0||py<0||px>=p.width||py>=p.height)continue;const n=py*p.width+px,k=y*f.width+x,a=f.pixels[k*4+3];if(l.inverted[n]&&!f.inverted?.[k]&&a>0&&a<255)throw Error('Полупрозрачность поверх инверсии нельзя закрепить без потерь');}for(let y=0;y<f.height;y++)for(let x=0;x<f.width;x++){const px=f.x+x,py=f.y+y;if(px<0||py<0||px>=p.width||py>=p.height)continue;const n=py*p.width+px,k=y*f.width+x;if(f.inverted?.[k]){l.pixels.fill(0,n*4,n*4+4);l.inverted[n]=1;}else{blendPixel(l.pixels,n*4,f.pixels,k*4);if(f.pixels[k*4+3])l.inverted[n]=0;}}p.floating=null;p.selection=null;}
+export function gradient(p,a,b,fore,back,opts={}){const dx=b[0]-a[0],dy=b[1]-a[1],len=Math.hypot(dx,dy)||1,angle=Math.atan2(dy,dx);for(let y=0;y<p.height;y++)for(let x=0;x<p.width;x++){let t=((x-a[0])*dx+(y-a[1])*dy)/(len*len),theta=(Math.atan2(y-a[1],x-a[0])-angle)/(2*Math.PI);if(opts.gradient==='radial')t=Math.hypot(x-a[0],y-a[1])/len;if(opts.gradient==='conical')t=(theta+1)%1;if(opts.gradient==='spiral')t=(theta+Math.hypot(x-a[0],y-a[1])/len+1)%1;if(opts.repeat==='asym')t=((t%1)+1)%1;else if(opts.repeat==='sym')t=1-Math.abs(((t%2)+2)%2-1);else t=Math.max(0,Math.min(1,t));const c=fore.map((v,i)=>Math.round(v*(1-t)+back[i]*t));if(opts.transparency){c.splice(0,3,...fore.slice(0,3));c[3]=Math.round(fore[3]*(1-t));}paint(p,x,y,c,{...opts,size:1});}}
+export function retouch(p,x,y,opts={}){
+ if(p.floating){const f=p.floating;return retouch({width:f.width,height:f.height,layers:[{...f,selected:true}]},x-f.x,y-f.y,opts);}
+ const size=opts.size||1,half=Math.floor(size/2);
+ for(const l of p.layers.filter(l=>l.selected)){
+  const source=l.pixels.slice();
+  for(let dy=0;dy<size;dy++)for(let dx=0;dx<size;dx++){
+   const xx=x+dx-half,yy=y+dy-half;if(xx<0||yy<0||xx>=p.width||yy>=p.height)continue;
+   const n=yy*p.width+xx,i=n*4,weight=brushCoverage(dx,dy,size,opts.shape||'round',!!opts.antialias)*(p.selection?p.selection[n]/255:1);
+   if(!weight||!source[i+3]||l.inverted?.[n])continue;
+   const c=Array.from(source.slice(i,i+3));let result;
+   if(opts.retouch==='hue'||opts.retouch==='sponge'){const h=hsv(c);if(opts.retouch==='hue')h[0]+=.025;else h[1]*=.9;result=rgb(h);}
+   else if(opts.retouch==='dodge'||opts.retouch==='burn')result=c.map(v=>v*(opts.retouch==='dodge'?1.1:.9));
+   else {
+    const sum=[0,0,0];let count=0;
+    for(let oy=-1;oy<=1;oy++)for(let ox=-1;ox<=1;ox++){
+     const sx=Math.max(0,Math.min(p.width-1,xx+ox)),sy=Math.max(0,Math.min(p.height-1,yy+oy)),sn=sy*p.width+sx,j=sn*4;
+     if(l.inverted?.[sn])continue;
+     const alpha=source[j+3]/255;count+=alpha;for(let k=0;k<3;k++)sum[k]+=source[j+k]*alpha;
+    }
+    result=c.map((v,k)=>opts.retouch==='sharpen'?2*v-sum[k]/count:sum[k]/count);
+   }
+   for(let k=0;k<3;k++)l.pixels[i+k]=c[k]+(Math.max(0,Math.min(255,result[k]))-c[k])*weight;
+  }
+ }
+}
+
+export function brushSelection(p,mask,a,b,opts){const size=opts.size||1,half=Math.floor(size/2);walkLine(...a,...b,(x,y)=>{for(let dy=0;dy<size;dy++)for(let dx=0;dx<size;dx++){const px=x+dx-half,py=y+dy-half;if(px<0||py<0||px>=p.width||py>=p.height)continue;const n=py*p.width+px;mask[n]=Math.max(mask[n],Math.round(255*brushCoverage(dx,dy,size,opts.shape,!!opts.antialias)));}});}

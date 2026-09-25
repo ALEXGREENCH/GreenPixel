@@ -1,0 +1,20 @@
+import * as Resources from './resources.js';
+import {document as newDocument,id} from './model.js';
+import {concat,integer} from './binary.js';
+export function library(name='Библиотека.res'){const d=newDocument();d.kind='library';d.pages=[];d.resources=[];d.name=name;d.source=null;return d;}
+export function readLibrary(buffer,name){const d=library(name);if(/\.res$/i.test(name))d.resources=Resources.readRES(buffer);else{const parsed=Resources.readPE(buffer);d.resources=parsed.resources;d.source=parsed.source;}d.resources.forEach(r=>r.id=id());return d;}
+export function writeLibrary(d,format){if(format==='res')return Resources.writeRES(d.resources);return Resources.writePE(d.source||Resources.emptyPE(),d.resources);}
+export function extractResource(d,r){
+  if(r.type===14||r.type===12){const cursor=r.type===12,b=r.data,v=new DataView(b.buffer,b.byteOffset,b.length);if(b.length<6)throw Error('Обрезанная группа значков');const count=v.getUint16(4,true);if(6+count*14>b.length)throw Error('Повреждённая группа значков');const head=new Uint8Array(6+count*16),h=new DataView(head.buffer);h.setUint16(2,cursor?2:1,true);h.setUint16(4,count,true);const chunks=[];let offset=head.length;
+    for(let i=0;i<count;i++){const at=6+i*14,n=v.getUint16(at+12,true),image=d.resources.find(x=>x.type===(cursor?1:3)&&x.name===n&&x.language===r.language)||d.resources.find(x=>x.type===(cursor?1:3)&&x.name===n);if(!image)throw Error('Отсутствует изображение группы: '+n);const target=6+i*16;let data=image.data;
+      if(cursor){if(data.length<4)throw Error('Обрезанный курсор');head[target]=v.getUint16(at,true)%256;head[target+1]=v.getUint16(at+2,true)/2%256;const depth=v.getUint16(at+6,true);head[target+2]=depth<8?1<<depth:0;head.set(data.subarray(0,4),target+4);data=data.subarray(4);}else head.set(b.subarray(at,at+8),target);
+      h.setUint32(target+8,data.length,true);h.setUint32(target+12,offset,true);chunks.push(data);offset+=data.length;
+    }return {bytes:concat([head,...chunks]),extension:cursor?'cur':'ico'};
+  }
+  if(r.type===2){const dib=r.data;if(dib.length<40)throw Error('Обрезанный BMP');const v=new DataView(dib.buffer,dib.byteOffset,dib.length),bpp=v.getUint16(14,true),colors=v.getUint32(32,true)||(bpp<=8?1<<bpp:0),h=new Uint8Array(14),hv=new DataView(h.buffer);h.set([66,77]);hv.setUint32(2,14+dib.length,true);hv.setUint32(10,14+v.getUint32(0,true)+colors*4,true);return {bytes:concat([h,dib]),extension:'bmp'};}
+  return {bytes:r.data,extension:r.type===3?'ico-image':r.type===21?'ani':r.type===22?'ani':'bin'};
+}
+export function addIconResources(d,buffer,name,language=0){const b=new Uint8Array(buffer),v=new DataView(b.buffer),cursor=v.getUint16(2,true)===2,count=v.getUint16(4,true),type=cursor?12:14,imageType=cursor?1:3;if(d.resources.some(r=>r.type===type&&r.name===name&&r.language===language))throw Error('Ресурс с таким типом, именем и языком уже существует');if(!count||6+count*16>b.length)throw Error('Некорректный ICO/CUR');const group=new Uint8Array(6+14*count),g=new DataView(group.buffer);g.setUint16(2,cursor?2:1,true);g.setUint16(4,count,true);const additions=[];let next=1;
+  for(let i=0;i<count;i++){while(d.resources.some(r=>r.type===imageType&&r.name===next)||additions.some(r=>r.name===next))next++;if(next>65535)throw Error('Исчерпаны номера ресурсов');const at=6+i*16,size=v.getUint32(at+8,true),offset=v.getUint32(at+12,true),target=6+i*14;if(offset+size>b.length)throw Error('Обрезанный ICO/CUR');let data=b.slice(offset,offset+size);if(cursor){data=concat([b.slice(at+4,at+8),data]);g.setUint16(target,b[at]||256,true);g.setUint16(target+2,(b[at+1]||256)*2,true);const dv=new DataView(data.buffer,data.byteOffset,data.byteLength),png=data[4]===137;g.setUint16(target+4,png?1:dv.getUint16(4+12,true),true);g.setUint16(target+6,png?32:dv.getUint16(4+14,true),true);}else group.set(b.subarray(at,at+8),target);g.setUint32(target+8,data.length,true);g.setUint16(target+12,next,true);additions.push({id:id(),type:imageType,name:next++,language,data,selected:false});}
+  additions.push({id:id(),type,name,language,data:group,selected:true});d.resources.push(...additions);
+}
