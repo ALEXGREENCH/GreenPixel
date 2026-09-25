@@ -1,0 +1,3724 @@
+[
+  {
+    "id": "TOOL_SEL_RECT",
+    "label": "Rectangular select",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: painting / selection (не полная приёмка каждого инструмента)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Rectangular select; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TOOL_SEL_ELLIPSE",
+    "label": "Elliptical select",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: painting / selection (не полная приёмка каждого инструмента)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Elliptical select; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TOOL_LASSO",
+    "label": "Lasso",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: painting / selection (не полная приёмка каждого инструмента)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Lasso; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TOOL_WAND",
+    "label": "Wand",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: painting / selection (не полная приёмка каждого инструмента)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Wand; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TOOL_SEL_PENCIL",
+    "label": "Pencil select",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: painting / selection (не полная приёмка каждого инструмента)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Pencil select; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TOOL_TRANSFORM",
+    "label": "Transform",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: painting / selection (не полная приёмка каждого инструмента)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Transform; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TOOL_CROP",
+    "label": "Crop",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: painting / selection (не полная приёмка каждого инструмента)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Crop; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TOOL_HOTSPOT",
+    "label": "Hot spot",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: painting / selection (не полная приёмка каждого инструмента)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Hot spot; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TOOL_EYEDROPPER",
+    "label": "Eyedropper",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: painting / selection (не полная приёмка каждого инструмента)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Eyedropper; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TOOL_RETOUCH",
+    "label": "Retouch",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: painting / selection (не полная приёмка каждого инструмента)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Retouch; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TOOL_RECT",
+    "label": "Rectangle",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: painting / selection (не полная приёмка каждого инструмента)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Rectangle; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TOOL_ELLIPSE",
+    "label": "Ellipse",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: painting / selection (не полная приёмка каждого инструмента)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Ellipse; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TOOL_LINE",
+    "label": "Line",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: painting / selection (не полная приёмка каждого инструмента)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Line; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TOOL_TEXT",
+    "label": "Text",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: painting / selection (не полная приёмка каждого инструмента)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Text; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TOOL_PENCIL",
+    "label": "Pencil",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: painting / selection (не полная приёмка каждого инструмента)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Pencil; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TOOL_BRUSH",
+    "label": "Brush",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: painting / selection (не полная приёмка каждого инструмента)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Brush; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TOOL_ERASER",
+    "label": "Eraser",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: painting / selection (не полная приёмка каждого инструмента)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Eraser; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TOOL_RECOLOR",
+    "label": "Recolor",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: painting / selection (не полная приёмка каждого инструмента)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Recolor; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TOOL_BUCKET",
+    "label": "Bucket fill",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: painting / selection (не полная приёмка каждого инструмента)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Bucket fill; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TOOL_GRADIENT",
+    "label": "Gradient fill",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: painting / selection (не полная приёмка каждого инструмента)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Gradient fill; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TOOL_NONE",
+    "label": "None",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: painting / selection (не полная приёмка каждого инструмента)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "None; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FILE",
+    "label": "File",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "File; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FILE_NEW_GRAPHIC",
+    "label": "New graphic",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "New graphic; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FILE_NEW_LIBRARY",
+    "label": "New library",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "New library; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FILE_OPEN",
+    "label": "Open",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Open; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FILE_RECENT_FILES",
+    "label": "Recent files",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Recent files; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FILE_RF_CLEAR",
+    "label": "Clear list",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Clear list; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FILE_OPEN_SAMPLE",
+    "label": "Open sample",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Open sample; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FILE_BATCH_CONVERT",
+    "label": "Batch convert files",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Batch convert files; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FILE_CLOSE",
+    "label": "Close",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Close; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FILE_CLOSE_ALL",
+    "label": "Close all",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Close all; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FILE_SAVE",
+    "label": "Save",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Save; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FILE_SAVE_AS",
+    "label": "Save as",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Save as; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FILE_SAVE_COPY",
+    "label": "Save a copy",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Save a copy; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FILE_SAVE_ALL",
+    "label": "Save all",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Save all; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FILE_REVERT",
+    "label": "Revert",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Revert; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FILE_METADATA",
+    "label": "Metadata",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Metadata; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FILE_PRINT",
+    "label": "Print",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Print; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FILE_EXIT",
+    "label": "Exit",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Exit; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_EDIT",
+    "label": "Edit",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Edit; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_EDIT_UNDO",
+    "label": "Undo",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Undo; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_EDIT_CANT_UNDO",
+    "label": "Can't undo",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Can't undo; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_EDIT_REDO",
+    "label": "Redo",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Redo; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_EDIT_CANT_REDO",
+    "label": "Can't redo",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Can't redo; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_EDIT_CUT",
+    "label": "Cut",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Cut; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_EDIT_COPY",
+    "label": "Copy",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Copy; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_EDIT_PASTE",
+    "label": "Paste",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Paste; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_EDIT_PASTE_PAGE",
+    "label": "Paste as New Page",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Paste as New Page; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_EDIT_PASTE_DOC",
+    "label": "Paste as New Document",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Paste as New Document; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_EDIT_DELETE",
+    "label": "Delete",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Delete; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_EDIT_SEL_ALL",
+    "label": "Select All",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Select All; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_EDIT_SEL_NONE",
+    "label": "Deselect All",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Deselect All; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_EDIT_SEL_INVERT",
+    "label": "Invert selection",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Invert selection; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_EDIT_SEL_LOAD",
+    "label": "Load selection mask",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Load selection mask; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_EDIT_SEL_SAVE",
+    "label": "Save selection mask",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Save selection mask; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_EDIT_CROP_TRANSPARENCY",
+    "label": "Crop transparent parts",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Crop transparent parts; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_EDIT_TRANSFORM",
+    "label": "Transform",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Transform; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_EDIT_SEL_TRANSFORM",
+    "label": "Transform selection",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Transform selection; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_EDIT_FLIP_HORIZ",
+    "label": "Flip horizontally",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Flip horizontally; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_EDIT_FLIP_VERT",
+    "label": "Flip vertically",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Flip vertically; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_EDIT_ROTATE_LEFT",
+    "label": "Rotate 90 degrees left",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Rotate 90 degrees left; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_EDIT_ROTATE_RIGHT",
+    "label": "Rotate 90 degrees right",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Rotate 90 degrees right; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_EDIT_ROTATE_180",
+    "label": "Rotate 180 degrees",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Rotate 180 degrees; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_VIEW",
+    "label": "View",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "View; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_VIEW_ZOOM_IN",
+    "label": "Zoom in",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Zoom in; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_VIEW_ZOOM_OUT",
+    "label": "Zoom out",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Zoom out; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_VIEW_100_PERCENT",
+    "label": "100%",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "100%; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_VIEW_FIT_WINDOW",
+    "label": "Fit window",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Fit window; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_VIEW_GRID",
+    "label": "Grid",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Grid; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_VIEW_CELL_GRID",
+    "label": "Cell grid",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Cell grid; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_VIEW_CENTER_LINES",
+    "label": "Center lines",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Center lines; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_VIEW_PAGES",
+    "label": "List of pages",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "List of pages; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_VIEW_TOOLBAR",
+    "label": "Toolbar",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Toolbar; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_VIEW_COLOR_PICKER",
+    "label": "Color Picker",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Color Picker; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_VIEW_TOOL_BEHAVIOR",
+    "label": "Tool Behavior",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Tool Behavior; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_VIEW_LAYERS",
+    "label": "Layers",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Layers; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_VIEW_PANEL_LEFT",
+    "label": "Left panel",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Left panel; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_VIEW_PANEL_RIGHT",
+    "label": "Right panel",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Right panel; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_VIEW_STARTUP_SCREEN",
+    "label": "Startup screen",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Startup screen; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FLT",
+    "label": "Filters",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Filters; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FLT_GRAYSCALE",
+    "label": "Grayscale",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [
+        "test/parity.test.js: all filters return finite bytes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Grayscale; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FLT_INVERT",
+    "label": "Invert",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [
+        "test/parity.test.js: all filters return finite bytes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Invert; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FLT_SOLARIZE",
+    "label": "Solarize",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [
+        "test/parity.test.js: all filters return finite bytes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Solarize; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FLT_RGB",
+    "label": "RGB Channels",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [
+        "test/parity.test.js: all filters return finite bytes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "RGB Channels; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FLT_HS",
+    "label": "Hue/Saturation",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [
+        "test/parity.test.js: all filters return finite bytes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Hue/Saturation; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FLT_EXPOSURE",
+    "label": "Exposure",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [
+        "test/parity.test.js: all filters return finite bytes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Exposure; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FLT_FORMULAE",
+    "label": "RGB Formulae",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [
+        "test/parity.test.js: all filters return finite bytes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "RGB Formulae; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FLT_AVERAGE",
+    "label": "Average",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [
+        "test/parity.test.js: all filters return finite bytes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Average; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FLT_BLUR_SOFT",
+    "label": "Soft Blur",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [
+        "test/parity.test.js: all filters return finite bytes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Soft Blur; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FLT_BLUR_MORE",
+    "label": "Blur More",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [
+        "test/parity.test.js: all filters return finite bytes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Blur More; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FLT_BLUR_CUSTOM",
+    "label": "Custom Blur",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [
+        "test/parity.test.js: all filters return finite bytes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Custom Blur; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FLT_SHARPEN",
+    "label": "Sharpen",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [
+        "test/parity.test.js: all filters return finite bytes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Sharpen; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FLT_UNSHARP_MASK",
+    "label": "Unsharp mask",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [
+        "test/parity.test.js: all filters return finite bytes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Unsharp mask; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FLT_REMOVE_MATTE",
+    "label": "Remove matte",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [
+        "test/parity.test.js: all filters return finite bytes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Remove matte; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FLT_OPACITY",
+    "label": "Opacity",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [
+        "test/parity.test.js: all filters return finite bytes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Opacity; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FLT_PAINT_CONTOUR",
+    "label": "Paint contour",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [
+        "test/parity.test.js: all filters return finite bytes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Paint contour; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FLT_DROP_SHADOW",
+    "label": "Drop shadow",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [
+        "test/parity.test.js: all filters return finite bytes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Drop shadow; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FLT_GLOW",
+    "label": "Glow",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [
+        "test/parity.test.js: all filters return finite bytes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Glow; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_FLT_BEVEL",
+    "label": "Bevel",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [
+        "test/parity.test.js: all filters return finite bytes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Bevel; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_LAYERS",
+    "label": "Layers",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Layers; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_LAYERS_NEW",
+    "label": "New layer",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "New layer; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_LAYERS_DUPLICATE",
+    "label": "Duplicate layer",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Duplicate layer; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_LAYERS_DELETE",
+    "label": "Delete layer",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Delete layer; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_LAYERS_PROP",
+    "label": "Layer properties",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Layer properties; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_LAYERS_MERGE_SELECTED",
+    "label": "Merge selected",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Merge selected; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_LAYERS_MERGE_VISIBLE",
+    "label": "Merge visible",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Merge visible; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_LAYERS_FLATTEN",
+    "label": "Flatten image",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Flatten image; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_LAYERS_FROM_SEL",
+    "label": "Create layer from selection",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Create layer from selection; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_ICON",
+    "label": "Icon",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Icon; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_ICON_PAGE_NEW",
+    "label": "New page",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "New page; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_ICON_PAGE_DELETE",
+    "label": "Delete page",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Delete page; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_ICON_PAGE_PROP",
+    "label": "Page properties",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Page properties; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_ICON_PAGE_IMPORT",
+    "label": "Import pages",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Import pages; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_ICON_PAGE_EXPORT",
+    "label": "Export page",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Export page; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_ICON_PAGE_EXPORT_WITH_PF",
+    "label": "Export page with pixel format (BMP only)",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Export page with pixel format (BMP only); точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_ICON_PAGE_EXPORT_ALL",
+    "label": "Export all pages",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Export all pages; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_ICON_UNIFORM_RATE",
+    "label": "Apply frame duration to all frames",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Apply frame duration to all frames; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_ICON_CREATE_WIN",
+    "label": "Create Windows icon from image",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Create Windows icon from image; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_ICON_CREATE_MAC",
+    "label": "Create Mac icon from image",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Create Mac icon from image; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_ICON_TEST",
+    "label": "Test",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Test; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_LIB",
+    "label": "Library",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Library; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_LIB_ADD",
+    "label": "Add resources",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Add resources; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_LIB_REMOVE",
+    "label": "Remove resources",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Remove resources; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_LIB_REPLACE",
+    "label": "Replace resources",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Replace resources; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_LIB_PROP",
+    "label": "Resource properties",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Resource properties; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_LIB_EXTRACT_EDIT",
+    "label": "Extract and edit",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Extract and edit; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_LIB_EXTRACT_SAVE",
+    "label": "Extract and save",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Extract and save; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_TOOLS_MEMO",
+    "label": "Memos",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Memos; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_SET",
+    "label": "Settings",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Settings; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_SET_PREFERENCES",
+    "label": "Preferences",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Preferences; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_SET_LANGUAGE",
+    "label": "Language",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Language; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_SET_CHECK_FOR_UPDATES",
+    "label": "Check for updates ",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Check for updates ; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_HELP",
+    "label": "Help",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Help; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_HELP_CONTENTS",
+    "label": "Contents",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Contents; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_HELP_HOMEPAGE",
+    "label": "Homepage",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Homepage; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_HELP_WHATSNEW",
+    "label": "Whats New?",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Whats New?; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "MI_HELP_SUPPORT",
+    "label": "Online support",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "not-implemented",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Online support; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Отключено: адрес получателя не подтверждён."
+  },
+  {
+    "id": "MI_HELP_DONATE",
+    "label": "Donate",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "not-implemented",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Donate; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Отключено: адрес получателя не подтверждён."
+  },
+  {
+    "id": "MI_HELP_ABOUT",
+    "label": "About",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "About; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PG_CAPTION_NEW_PAGE",
+    "label": "New page",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "New page; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PG_CAPTION_PAGE_PROP",
+    "label": "Page properties",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Page properties; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PG_SIZE_SMALLEST",
+    "label": "smallest",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "smallest; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PG_SIZE_TOOLBAR",
+    "label": "toolbar",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "toolbar; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PG_SIZE_SMALL",
+    "label": "small",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "small; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PG_SIZE_MEDIUM",
+    "label": "medium",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "medium; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PG_SIZE_LARGE",
+    "label": "large",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "large; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PG_SIZE_HUGE_VISTA",
+    "label": "huge, Vista",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "huge, Vista; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PG_SIZE_APPLE",
+    "label": "Apple",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Apple; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PG_CUSTOM_SIZE",
+    "label": "Custom size",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Custom size; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PG_SQUARE",
+    "label": "Square",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Square; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PG_PROPORTIONAL",
+    "label": "Proportional",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Proportional; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PG_CR",
+    "label": "Color reduction",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Color reduction; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PG_CR_BW",
+    "label": "Black and White",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Black and White; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PG_CR_16_WIN",
+    "label": "16 colors (Windows palette)",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "16 colors (Windows palette); точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PG_CR_16_MAC",
+    "label": "16 colors (Mac palette)",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "16 colors (Mac palette); точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PG_CR_256_ADAPT",
+    "label": "256 colors (adaptive)",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "256 colors (adaptive); точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PG_CR_256_MAC",
+    "label": "256 colors (Mac palette)",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "256 colors (Mac palette); точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PG_CR_24",
+    "label": "24-bit RGB",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "24-bit RGB; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PG_CR_32",
+    "label": "No reduction (32-bit)",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "No reduction (32-bit); точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PG_ANIMATION",
+    "label": "Animation",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Animation; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PG_FRAME_RATE",
+    "label": "Frame duration (milliseconds)",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Frame duration (milliseconds); точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PG_OTHER",
+    "label": "Other",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Other; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PG_DPI",
+    "label": "DPI",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "DPI; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PG_CREATE_FROM_SELECTED",
+    "label": "Create from selected page",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Create from selected page; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PG_WHEN_RESIZING",
+    "label": "When resizing",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "When resizing; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PG_STRETCH",
+    "label": "Stretch",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Stretch; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PG_CROP",
+    "label": "Crop",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Crop; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PG_IMAGE_ANCHORS",
+    "label": "Image anchors",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Image anchors; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "LP_BM_NORMAL",
+    "label": "Normal",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: 26 blend modes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Normal; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "LP_BM_MASK",
+    "label": "Mask",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: 26 blend modes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Mask; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "LP_BM_BEHIND",
+    "label": "Behind",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: 26 blend modes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Behind; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "LP_BM_DISSOLVE",
+    "label": "Dissolve",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: 26 blend modes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Dissolve; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "LP_BM_HUE",
+    "label": "Hue",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: 26 blend modes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Hue; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "LP_BM_HUE_SHIFT",
+    "label": "Hue Shift",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: 26 blend modes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Hue Shift; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "LP_BM_SAT",
+    "label": "Saturation",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: 26 blend modes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Saturation; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "LP_BM_DARKEN",
+    "label": "Darken",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: 26 blend modes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Darken; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "LP_BM_MULTIPLY",
+    "label": "Multiply",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: 26 blend modes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Multiply; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "LP_BM_COLOR_BURN",
+    "label": "Color Burn",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: 26 blend modes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Color Burn; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "LP_BM_LINEAR_BURN",
+    "label": "Linear Burn",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: 26 blend modes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Linear Burn; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "LP_BM_DARKER_COLOR",
+    "label": "Darker Color",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: 26 blend modes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Darker Color; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "LP_BM_LIGHTEN",
+    "label": "Lighten",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: 26 blend modes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Lighten; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "LP_BM_SCREEN",
+    "label": "Screen",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: 26 blend modes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Screen; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "LP_BM_COLOR_DODGE",
+    "label": "Color Dodge",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: 26 blend modes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Color Dodge; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "LP_BM_LINEAR_DODGE",
+    "label": "Linear Dodge (Add)",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: 26 blend modes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Linear Dodge (Add); точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "LP_BM_LIGHTER_COLOR",
+    "label": "Lighter Color",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: 26 blend modes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Lighter Color; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "LP_BM_OVERLAY",
+    "label": "Overlay",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: 26 blend modes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Overlay; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "LP_BM_SOFT_LIGHT",
+    "label": "Soft Light",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: 26 blend modes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Soft Light; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "LP_BM_HARD_LIGHT",
+    "label": "Hard Light",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: 26 blend modes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Hard Light; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "LP_BM_VIVID_LIGHT",
+    "label": "Vivid Light",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: 26 blend modes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Vivid Light; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "LP_BM_LINEAR_LIGHT",
+    "label": "Linear Light",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: 26 blend modes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Linear Light; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "LP_BM_PIN_LIGHT",
+    "label": "Pin Light",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: 26 blend modes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Pin Light; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "LP_BM_HARD_MIX",
+    "label": "Hard Mix",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: 26 blend modes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Hard Mix; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "LP_BM_DIFFERENCE",
+    "label": "Difference",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: 26 blend modes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Difference; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "LP_BM_EXCLUSION",
+    "label": "Exclusion",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "implemented-unverified",
+    "test": {
+      "executed": [
+        "test/parity.test.js: 26 blend modes (не golden)"
+      ],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Exclusion; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "PREF_MISC",
+    "label": "Misc",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Misc; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Настройки приложения; системные ассоциации недоступны в браузере."
+  },
+  {
+    "id": "PREF_ENVIRONMENT",
+    "label": "Environment",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Environment; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Настройки приложения; системные ассоциации недоступны в браузере."
+  },
+  {
+    "id": "PREF_INSTALL",
+    "label": "Install",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Install; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Настройки приложения; системные ассоциации недоступны в браузере."
+  },
+  {
+    "id": "PREF_IMAGE_MAX",
+    "label": "Max. allowed image size",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Max. allowed image size; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Настройки приложения; системные ассоциации недоступны в браузере."
+  },
+  {
+    "id": "PREF_PNG_ICONS",
+    "label": "Using PNG compression in .ICO/.CUR files",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Using PNG compression in .ICO/.CUR files; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Настройки приложения; системные ассоциации недоступны в браузере."
+  },
+  {
+    "id": "PREF_PNG_LIMIT",
+    "label": "Compress images whose size is at least",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Compress images whose size is at least; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Настройки приложения; системные ассоциации недоступны в браузере."
+  },
+  {
+    "id": "PREF_AA_IMAGES",
+    "label": "Antialias all resized images",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Antialias all resized images; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Настройки приложения; системные ассоциации недоступны в браузере."
+  },
+  {
+    "id": "PREF_COLORS",
+    "label": "Colors",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Colors; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Настройки приложения; системные ассоциации недоступны в браузере."
+  },
+  {
+    "id": "PREF_TRANSPARENT_HATCH",
+    "label": "Transparent hatch",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Transparent hatch; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Настройки приложения; системные ассоциации недоступны в браузере."
+  },
+  {
+    "id": "PREF_GRID2",
+    "label": "Secondary grid",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Secondary grid; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Настройки приложения; системные ассоциации недоступны в браузере."
+  },
+  {
+    "id": "PREF_DVM",
+    "label": "View mode of Open/Save dialogs",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "View mode of Open/Save dialogs; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Настройки приложения; системные ассоциации недоступны в браузере."
+  },
+  {
+    "id": "PREF_DVM_ITEMS",
+    "label": "Icons<br>List<br>Details<br>Thumbnails<br>Tiles",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Icons<br>List<br>Details<br>Thumbnails<br>Tiles; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Настройки приложения; системные ассоциации недоступны в браузере."
+  },
+  {
+    "id": "PREF_MWA",
+    "label": "Mouse wheel action",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Mouse wheel action; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Настройки приложения; системные ассоциации недоступны в браузере."
+  },
+  {
+    "id": "PREF_MWA_ITEMS",
+    "label": "None<br>Scroll<br>Zoom",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "None<br>Scroll<br>Zoom; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Настройки приложения; системные ассоциации недоступны в браузере."
+  },
+  {
+    "id": "PREF_SAVE_TOOL_SETTINGS",
+    "label": "Save tool settings between sessions",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Save tool settings between sessions; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Настройки приложения; системные ассоциации недоступны в браузере."
+  },
+  {
+    "id": "PREF_SWAP_LAYERS_AND_COLOR_PICKER",
+    "label": "Swap Layers and Color Picker (Photoshop like)",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Swap Layers and Color Picker (Photoshop like); точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Настройки приложения; системные ассоциации недоступны в браузере."
+  },
+  {
+    "id": "PREF_FILE_ASSOC",
+    "label": "File associations",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "browser-adaptation",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "File associations; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Настройки приложения; системные ассоциации недоступны в браузере."
+  },
+  {
+    "id": "PREF_ADMIN",
+    "label": "Note that, if using Windows Vista or newer, GreenPixel cannot modify these system settings unless run in administrator mode.",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Note that, if using Windows Vista or newer, GreenPixel cannot modify these system settings unless run in administrator mode.; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Настройки приложения; системные ассоциации недоступны в браузере."
+  },
+  {
+    "id": "PREF_AUTO_CHECK_FOR_UPDATES",
+    "label": "Auto check for updates",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Auto check for updates; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Настройки приложения; системные ассоциации недоступны в браузере."
+  },
+  {
+    "id": "TB_ANTIALIAS",
+    "label": "Antialias",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Antialias; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TB_PATTERN",
+    "label": "Pattern",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Pattern; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TB_IS_PATTERN_FILL",
+    "label": "Fill pattern",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Fill pattern; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TB_IS_PATTERN_INVERT",
+    "label": "Invert pattern",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Invert pattern; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TB_CLEAR_PATTERN",
+    "label": "Clear pattern",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Clear pattern; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TB_SAMPLE_ALL_LAYERS",
+    "label": "Sample all layers",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Sample all layers; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TB_BRUSH_SIZE",
+    "label": "Brush size",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Brush size; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TB_BRUSH_SHAPE",
+    "label": "Brush shape",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Brush shape; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TB_BRUSH_ITEMS",
+    "label": "Rounded<br>Sharp<br>Slash<br>Backslash<br>Horizontal<br>Vertical<br>Spray",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Rounded<br>Sharp<br>Slash<br>Backslash<br>Horizontal<br>Vertical<br>Spray; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TB_LINE_WIDTH",
+    "label": "Line width",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Line width; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TB_TOLERANCE",
+    "label": "Wand/Recolor/Bucket tolerance (%)",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Wand/Recolor/Bucket tolerance (%); точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TB_CONTIGUOUS",
+    "label": "Contiguous",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Contiguous; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TB_SHAPE_FRAMED",
+    "label": "Framed shapes",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Framed shapes; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TB_SHAPE_FILLED",
+    "label": "Filled shapes",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Filled shapes; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TB_EYEDROPPER_BACK",
+    "label": "Eyedropper switches back to previous tool",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Eyedropper switches back to previous tool; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TB_RETOUCH_MODE",
+    "label": "Retouch mode",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Retouch mode; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TB_RETOUCH_ITEMS",
+    "label": "Blur<br>Sharpen<br>Dodge<br>Burn<br>Hue<br>Sponge",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Blur<br>Sharpen<br>Dodge<br>Burn<br>Hue<br>Sponge; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TB_ERASER_STRENGTH",
+    "label": "Eraser strength (%)",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Eraser strength (%); точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TB_G_LINEAR",
+    "label": "Linear gradient",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Linear gradient; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TB_G_RADIAL",
+    "label": "Radial gradient",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Radial gradient; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TB_G_CONICAL",
+    "label": "Conical gradient",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Conical gradient; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TB_G_SPIRAL",
+    "label": "Spiral gradient",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Spiral gradient; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TB_REP_NONE",
+    "label": "No repetition",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "No repetition; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TB_REP_SYM",
+    "label": "Symmetrical repetition",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Symmetrical repetition; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TB_REP_ASYM",
+    "label": "Asymmetrical repetition",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Asymmetrical repetition; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TB_MODE_COLOR",
+    "label": "Color mode",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Color mode; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "TB_MODE_TRANSPARENCY",
+    "label": "Transparency mode",
+    "source": "GreenPixel 4.0.3.1 Language/English.txt",
+    "status": "partial",
+    "test": {
+      "executed": [],
+      "required": [
+        "Проверить исходный диалог и поведение; сравнить с оригиналом."
+      ]
+    },
+    "originalBehavior": "Transparency mode; точные параметры и состояния требуют проверки оригинального диалога.",
+    "browserEquivalent": "Команда приложения; см. src/app.js и docs/PARITY.md."
+  },
+  {
+    "id": "FORMAT_GFIE",
+    "label": "GFIE",
+    "source": "docs/PARITY.md → карта реализации и ссылки на спецификации",
+    "originalBehavior": "Чтение и сохранение GFIE",
+    "browserEquivalent": "Отдельный кодек, см. src/codecs.js",
+    "test": {
+      "executed": [
+        "Оригинальные деревья; Button.gfie UI"
+      ],
+      "required": [
+        "Roundtrip всех вариантов в оригинальной программе"
+      ]
+    },
+    "status": "partial"
+  },
+  {
+    "id": "FORMAT_ICO",
+    "label": "ICO",
+    "source": "docs/PARITY.md → карта реализации и ссылки на спецификации",
+    "originalBehavior": "Чтение и сохранение ICO",
+    "browserEquivalent": "Отдельный кодек, см. src/codecs.js",
+    "test": {
+      "executed": [],
+      "required": [
+        "Roundtrip всех вариантов в оригинальной программе"
+      ]
+    },
+    "status": "partial"
+  },
+  {
+    "id": "FORMAT_CUR",
+    "label": "CUR",
+    "source": "docs/PARITY.md → карта реализации и ссылки на спецификации",
+    "originalBehavior": "Чтение и сохранение CUR",
+    "browserEquivalent": "Отдельный кодек, см. src/codecs.js",
+    "test": {
+      "executed": [],
+      "required": [
+        "Roundtrip всех вариантов в оригинальной программе"
+      ]
+    },
+    "status": "partial"
+  },
+  {
+    "id": "FORMAT_ANI",
+    "label": "ANI",
+    "source": "docs/PARITY.md → карта реализации и ссылки на спецификации",
+    "originalBehavior": "Чтение и сохранение ANI",
+    "browserEquivalent": "Отдельный кодек, см. src/codecs.js",
+    "test": {
+      "executed": [],
+      "required": [
+        "Roundtrip всех вариантов в оригинальной программе"
+      ]
+    },
+    "status": "partial"
+  },
+  {
+    "id": "FORMAT_ICNS",
+    "label": "ICNS",
+    "source": "docs/PARITY.md → карта реализации и ссылки на спецификации",
+    "originalBehavior": "Чтение и сохранение ICNS",
+    "browserEquivalent": "Отдельный кодек, см. src/codecs.js",
+    "test": {
+      "executed": [
+        "Bluecat container/RLE"
+      ],
+      "required": [
+        "Roundtrip всех вариантов в оригинальной программе"
+      ]
+    },
+    "status": "partial"
+  },
+  {
+    "id": "FORMAT_PNG",
+    "label": "PNG",
+    "source": "docs/PARITY.md → карта реализации и ссылки на спецификации",
+    "originalBehavior": "Чтение и сохранение PNG",
+    "browserEquivalent": "Отдельный кодек, см. src/codecs.js",
+    "test": {
+      "executed": [],
+      "required": [
+        "Roundtrip всех вариантов в оригинальной программе"
+      ]
+    },
+    "status": "partial"
+  },
+  {
+    "id": "FORMAT_BMP",
+    "label": "BMP",
+    "source": "docs/PARITY.md → карта реализации и ссылки на спецификации",
+    "originalBehavior": "Чтение и сохранение BMP",
+    "browserEquivalent": "Отдельный кодек, см. src/codecs.js",
+    "test": {
+      "executed": [
+        "RGB roundtrip"
+      ],
+      "required": [
+        "Roundtrip всех вариантов в оригинальной программе"
+      ]
+    },
+    "status": "partial"
+  },
+  {
+    "id": "FORMAT_PCX",
+    "label": "PCX",
+    "source": "docs/PARITY.md → карта реализации и ссылки на спецификации",
+    "originalBehavior": "Чтение и сохранение PCX",
+    "browserEquivalent": "Отдельный кодек, см. src/codecs.js",
+    "test": {
+      "executed": [
+        "RGB roundtrip"
+      ],
+      "required": [
+        "Roundtrip всех вариантов в оригинальной программе"
+      ]
+    },
+    "status": "partial"
+  },
+  {
+    "id": "FORMAT_XPM",
+    "label": "XPM",
+    "source": "docs/PARITY.md → карта реализации и ссылки на спецификации",
+    "originalBehavior": "Чтение и сохранение XPM",
+    "browserEquivalent": "Отдельный кодек, см. src/codecs.js",
+    "test": {
+      "executed": [
+        "RGB roundtrip"
+      ],
+      "required": [
+        "Roundtrip всех вариантов в оригинальной программе"
+      ]
+    },
+    "status": "partial"
+  },
+  {
+    "id": "FORMAT_JPEG",
+    "label": "JPEG",
+    "source": "docs/PARITY.md → карта реализации и ссылки на спецификации",
+    "originalBehavior": "Чтение и сохранение JPEG",
+    "browserEquivalent": "Отдельный кодек, см. src/codecs.js",
+    "test": {
+      "executed": [],
+      "required": [
+        "Roundtrip всех вариантов в оригинальной программе"
+      ]
+    },
+    "status": "partial"
+  },
+  {
+    "id": "FORMAT_GIF",
+    "label": "GIF",
+    "source": "docs/PARITY.md → карта реализации и ссылки на спецификации",
+    "originalBehavior": "Чтение и сохранение GIF",
+    "browserEquivalent": "Отдельный кодек, см. src/codecs.js",
+    "test": {
+      "executed": [
+        "frames/disposal/loop roundtrip"
+      ],
+      "required": [
+        "Roundtrip всех вариантов в оригинальной программе"
+      ]
+    },
+    "status": "partial"
+  },
+  {
+    "id": "FORMAT_JPEG2000",
+    "label": "JPEG2000",
+    "source": "docs/PARITY.md → карта реализации и ссылки на спецификации",
+    "originalBehavior": "Чтение и сохранение JPEG2000",
+    "browserEquivalent": "Отдельный кодек, см. src/codecs.js",
+    "test": {
+      "executed": [
+        "Button-rgb.j2k UI roundtrip"
+      ],
+      "required": [
+        "Roundtrip всех вариантов в оригинальной программе"
+      ]
+    },
+    "status": "partial"
+  },
+  {
+    "id": "FORMAT_RES",
+    "label": "RES",
+    "source": "docs/PARITY.md → карта реализации и ссылки на спецификации",
+    "originalBehavior": "Чтение и сохранение RES",
+    "browserEquivalent": "Отдельный кодек, см. src/codecs.js",
+    "test": {
+      "executed": [
+        "unknown types/Unicode/languages roundtrip"
+      ],
+      "required": [
+        "Roundtrip всех вариантов в оригинальной программе"
+      ]
+    },
+    "status": "partial"
+  },
+  {
+    "id": "FORMAT_ICL",
+    "label": "ICL",
+    "source": "docs/PARITY.md → карта реализации и ссылки на спецификации",
+    "originalBehavior": "Чтение и сохранение ICL",
+    "browserEquivalent": "Отдельный кодек, см. src/codecs.js",
+    "test": {
+      "executed": [
+        "PE resource-only roundtrip"
+      ],
+      "required": [
+        "Roundtrip всех вариантов в оригинальной программе"
+      ]
+    },
+    "status": "partial"
+  },
+  {
+    "id": "FORMAT_EXE-DLL",
+    "label": "EXE-DLL",
+    "source": "docs/PARITY.md → карта реализации и ссылки на спецификации",
+    "originalBehavior": "Чтение и сохранение EXE-DLL",
+    "browserEquivalent": "Отдельный кодек, см. src/codecs.js",
+    "test": {
+      "executed": [
+        "133 ресурсов исходного EXE: payload roundtrip"
+      ],
+      "required": [
+        "Roundtrip всех вариантов в оригинальной программе"
+      ]
+    },
+    "status": "partial"
+  }
+]
