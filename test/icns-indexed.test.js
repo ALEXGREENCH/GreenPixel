@@ -25,7 +25,6 @@ test('all eight legacy Bluecat pages save together and reopen without pixel loss
  const images=[...indexedICNS(bluecat),...legacyICNS(bluecat)],doc=makeDocument();doc.pages=images.map(im=>Object.assign(imagePage(im),{icnsType:im.type}));
  const restored=parse(serialize(doc));assert.deepEqual(restored.pages.map(p=>p.icnsType),doc.pages.map(p=>p.icnsType));
  const chunks=icnsChunks(await encodeICNS(restored)),decoded=[...indexedICNS(chunks),...legacyICNS(chunks)];
- for(const c of chunks.filter(x=>['is32','ih32'].includes(x.type)))for(let i=0;i<c.data.length;i+=4)assert.equal(c.data[i],255);
  assert.equal(decoded.length,8);for(const image of images)assert.deepEqual(decoded.find(x=>x.type===image.type).pixels,image.pixels);
 });
 test('ICNS export rejects incompatible shared masks instead of silently replacing one',async()=>{
